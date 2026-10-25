@@ -275,6 +275,24 @@ th { background: linear-gradient(90deg, rgba(139,92,246,.22), rgba(236,72,153,.1
 tr:last-child td { border-bottom: 0; }
 td:nth-child(2) { color: var(--heading); font-weight: 600; }
 
+/* comparison table (svensk style) */
+.vs-wrap { overflow-x: auto; margin: 2em 0 1.4em; border-radius: var(--r-lg); border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow); }
+.vs { width: 100%; border-collapse: collapse; min-width: 640px; font-size: 1rem; }
+.vs th, .vs td { padding: 16px 20px; border-bottom: 1px solid var(--border); text-align: center; vertical-align: middle; }
+.vs thead th { background: linear-gradient(90deg, rgba(139,92,246,.35), rgba(236,72,153,.18) 60%, rgba(34,211,238,.18)); color: var(--muted); font: 700 1rem/1.2 var(--f-display); }
+.vs thead th:first-child, .vs tbody th { text-align: left; color: var(--heading); font: 600 1rem/1.35 var(--f-display); }
+.vs tbody tr:nth-child(even) { background: rgba(139,92,246,.05); }
+.vs tbody tr:last-child th, .vs tbody tr:last-child td { border-bottom: 0; }
+.vs td { color: var(--muted); }
+.vs .us { background: rgba(139,92,246,.14); color: #E9D5FF; font-weight: 800; font-family: var(--f-display); }
+:root[data-theme="light"] .vs .us { color: #6D28D9; }
+.vs thead .us { background: linear-gradient(180deg, rgba(139,92,246,.55), rgba(236,72,153,.35)); }
+.vs-logo { display: inline-flex; align-items: center; gap: .4em; font: 800 1.1rem/1 var(--f-display); color: #fff; letter-spacing: -0.02em; white-space: nowrap; }
+.vs .yes .icon, .vs .no .icon { width: 26px; height: 26px; stroke-width: 2.8; vertical-align: middle; }
+.vs .yes { color: var(--green); } .vs .no { color: #FB7185; }
+:root[data-theme="light"] .vs .yes { color: #047857; } :root[data-theme="light"] .vs .no { color: #BE123C; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
 /* ---------- AI-ready answer blocks ---------- */
 .kort { margin: 0 0 1.6em; padding: 20px 22px; border-radius: var(--r); background: linear-gradient(135deg, rgba(139,92,246,.18), rgba(34,211,238,.08)); border: 1px solid rgba(139,92,246,.45); }
 .kort-title { font: 800 .78rem/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--link); margin: 0 0 10px; }
