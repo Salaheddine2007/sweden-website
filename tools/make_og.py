@@ -5,7 +5,7 @@ point at a 404 image.
 """
 import os, shutil
 
-NIGHT, SIGNAL, WHITE, MIST = (14, 26, 58), (255, 198, 41), (255, 255, 255), (180, 189, 214)
+NIGHT, SIGNAL, WHITE, MIST = (10, 37, 51), (214, 40, 57), (255, 255, 255), (181, 202, 212)
 FONTS_BOLD = ["C:/Windows/Fonts/arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
               "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"]
 
@@ -35,7 +35,7 @@ def card(path, title):
     d.text((80, 70), "bästa iptv", font=brand, fill=WHITE)
     x = 80 + d.textlength("bästa iptv ", font=brand)
     d.rounded_rectangle([x, 66, x + 92, 122], radius=10, fill=SIGNAL)
-    d.text((x + 14, 70), "HD", font=brand, fill=NIGHT)
+    d.text((x + 14, 70), "HD", font=brand, fill=WHITE)
     size = 76
     while True:
         f = _font(size)
@@ -49,6 +49,7 @@ def card(path, title):
         y += int(size * 1.15)
     d.text((80, 548), "bastaiptvhd.se", font=_font(26), fill=MIST)
     img.save(path, optimize=True)
+    img.save(path[:-4] + ".webp", "WEBP", quality=82, method=6)  # in-content featured image
 
 def build(out_dir, items):
     os.makedirs(out_dir, exist_ok=True)
@@ -60,11 +61,12 @@ def build(out_dir, items):
         have_pil = False
     for name, title in items:
         path = os.path.join(out_dir, name + ".png")
-        if os.path.exists(path):
+        if os.path.exists(path) and os.path.exists(path[:-4] + ".webp"):
             continue
         if have_pil:
             card(path, title)
         elif os.path.exists(os.path.join(out_dir, "home.png")):
             shutil.copy(os.path.join(out_dir, "home.png"), path)
+            shutil.copy(os.path.join(out_dir, "home.webp"), path[:-4] + ".webp")
         made += 1
     return made

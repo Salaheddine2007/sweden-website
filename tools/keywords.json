@@ -228,12 +228,6 @@
   "intent": "Informational"
  },
  {
-  "keyword": "iptv i datorn",
-  "slug": "iptv-i-datorn",
-  "volume": 30,
-  "intent": "Informational"
- },
- {
   "keyword": "iptv ip",
   "slug": "iptv-ip",
   "volume": 30,

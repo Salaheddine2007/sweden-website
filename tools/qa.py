@@ -24,12 +24,59 @@ def pages():
                 url = "/" + ("" if rel == "index.html" else rel[:-len("index.html")]) if rel.endswith("index.html") else "/" + rel
                 yield url, open(p, encoding="utf-8").read()
 
+def sources():
+    """url -> source meta (focus keyword etc.) from tools/pages and tools/posts"""
+    out = {}
+    for sub, prefix in (("pages", "/"), ("posts", "/blogg/")):
+        d = os.path.join(ROOT, "tools", sub)
+        for fn in os.listdir(d):
+            raw = open(os.path.join(d, fn), encoding="utf-8").read()
+            meta = json.loads(re.match(r"\s*<!--(\{.*?\})-->", raw, re.S).group(1))
+            slug = meta["slug"]
+            out[prefix + (slug + "/" if slug else "")] = meta
+    return out
+
+def slugify(s):
+    import unicodedata
+    return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()).strip("-")
+
+def rank_math(url, doc, meta, bad):
+    """the Rank Math content checks that apply to a static page (focus keyword = meta["keyword"])"""
+    kw = meta["keyword"].lower()
+    title = html.unescape(re.search(r"<title>(.*?)</title>", doc, re.S).group(1)).lower()
+    desc = html.unescape(re.search(r'<meta name="description" content="([^"]*)"', doc).group(1)).lower()
+    main_part = doc[doc.find("<main"):doc.find("</main>")]
+    text = html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style|nav)\b.*?</\1>", " ", main_part, flags=re.S))).lower()
+    words = text.split()
+    count = len(re.findall(r"(?<!\w)" + re.escape(kw) + r"(?!\w)", " ".join(words)))
+    density = 100 * count / max(len(words), 1)
+    pos = title.find(kw)
+    if pos < 0 or pos > len(title) / 2: bad(f"RM: keyword '{kw}' not near the start of the title")
+    if not re.search(r"\d", title): bad("RM: no number in title")
+    if kw not in desc: bad("RM: keyword missing from meta description")
+    if url != "/" and slugify(kw) not in url: bad(f"RM: keyword not in URL ({slugify(kw)})")
+    if kw not in " ".join(words[:max(len(words) // 10, 60)]): bad("RM: keyword not in the first 10% of the content")
+    if not any(kw in html.unescape(re.sub(r"<[^>]+>", "", h)).lower() for h in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", main_part, re.S)):
+        bad("RM: keyword not in any H2/H3")
+    if not any(kw in html.unescape(a).lower() for a in re.findall(r'<img[^>]*alt="([^"]*)"', main_part)): bad("RM: no image with keyword in alt")
+    if not 0.75 <= density <= 2.0: bad(f"RM: keyword density {density:.2f}% ({count}x in {len(words)} words), aim 1–1.5%")
+    if not 600 <= len(words) <= 2600: bad(f"RM: {len(words)} words, aim 600–2500")
+    ext = [a for a in re.findall(r"<a\b[^>]*>", main_part) if re.search(r'href="https?://(?!(www\.)?bastaiptvhd\.se|api\.whatsapp)', a)]
+    if not any("nofollow" not in a for a in ext): bad("RM: no dofollow external link")
+    if 'class="toc"' not in main_part: bad("RM: no table of contents")
+    return density, count, len(words)
+
 def main():
     problems, linked, exists, ph = [], {}, set(), []
-    all_pages = dict(pages())
+    all_pages = {u: d for u, d in pages() if 'http-equiv="refresh"' not in d}  # skip redirect stubs
     exists = set(all_pages)
+    src = sources()
+    report = []
     for url, doc in all_pages.items():
         def bad(msg): problems.append(f"{url}: {msg}")
+        if src.get(url, {}).get("keyword"):
+            d, c, w = rank_math(url, doc, src[url], bad)
+            report.append(f"  {url:<32} '{src[url]['keyword']}' {c}x / {w} words = {d:.2f}%")
         title = html.unescape(re.search(r"<title>(.*?)</title>", doc, re.S).group(1))
         desc = html.unescape(re.search(r'<meta name="description" content="([^"]*)"', doc).group(1))
         if url != "/404.html":
@@ -63,6 +110,8 @@ def main():
         if url not in ("/", "/404.html") and not linked.get(url):
             problems.append(f"{url}: orphan (no page links to it)")
     print(f"{len(exists)} pages checked, {len(problems)} problems, {len(ph)} placeholders")
+    if "--rm" in sys.argv:
+        print("\n".join(sorted(report)))
     for p in problems: print("  FAIL", p)
     if "--placeholders" in sys.argv:
         seen = {}

@@ -11,5 +11,13 @@
   "type": "Organization",
   "name": "Supporten på Bästa IPTV HD",
   "bio": "Vi som svarar på WhatsApp och hjälper kunder att installera IPTV på Smart TV, Apple TV, Android-boxar och mobiler. Guiderna bygger på de frågor vi får varje vecka. [PLACEHOLDER: namn och kort bakgrund för den som skriver guiderna]"
+ },
+ "redirects": {
+  "/blogg/iptv-apple-tv/": "/blogg/iptv-pa-apple-tv/",
+  "/blogg/iptv-4k/": "/blogg/iptv-i-4k/",
+  "/blogg/iptv-omdome/": "/blogg/iptv-omdomen/",
+  "/blogg/iptv-pc-mac/": "/blogg/iptv-pa-datorn/",
+  "/iptv-smart-tv/": "/iptv-pa-smart-tv/",
+  "/iptv-sport/": "/iptv-for-sport/"
  }
 }

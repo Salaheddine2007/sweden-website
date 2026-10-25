@@ -69,6 +69,43 @@ def page(meta, body, url, trail, og_name, extra_schema=(), og_type="website"):
     out = out.replace(f'<a href="{path}">', f'<a href="{path}" aria-current="page">', 1) if path != "/" else out
     return re.sub(r"\[PLACEHOLDER:[^\]]*\]", lambda m: f'<span class="ph">{m.group(0)}</span>', out)
 
+def slug_id(text):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", html.unescape(re.sub(r"<[^>]+>", "", text))).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:60]
+
+def enrich(body, meta, og_name):
+    """Rank Math helpers for pages with a focus keyword: ids on H2s, a table of contents ("Innehåll")
+    and a featured image whose alt text carries the keyword. Placed at <!--TOC--> / <!--FIGURE-->
+    markers when the source has them, otherwise right after the first paragraph."""
+    seen = set()
+    def add_id(m):
+        if "id=" in m.group(1):
+            return m.group(0)
+        i = slug_id(m.group(2)) or "avsnitt"
+        while i in seen:
+            i += "-2"
+        seen.add(i)
+        return f'<h2{m.group(1)} id="{i}">{m.group(2)}</h2>'
+    body = re.sub(r"<h2([^>]*)>(.*?)</h2>", add_id, body, flags=re.S)
+    if not meta.get("keyword"):
+        return body
+    heads = [(i, h) for i, h in re.findall(r'<h2[^>]*id="([^"]+)"[^>]*>(.*?)</h2>', body, re.S) if "Läs vidare" not in h]
+    block = ""
+    if meta.get("toc", True) and len(heads) >= 4:
+        items = "".join(f'<li><a href="#{i}">{re.sub(r"<[^>]+>", "", t).strip()}</a></li>' for i, t in heads)
+        block += f'<nav class="toc" aria-label="Innehåll"><p class="toc-title">Innehåll</p><ol>{items}</ol></nav>'
+    fig = (f'<figure class="feature"><img src="/assets/og/{og_name}.webp" width="1200" height="630" loading="lazy" decoding="async" '
+           f'alt="{html.escape(meta.get("img_alt") or meta["keyword"].capitalize() + ": " + meta.get("h1", meta["title"]))}"></figure>')
+    if "<!--FIGURE-->" in body:
+        body = body.replace("<!--FIGURE-->", fig, 1)
+    else:
+        block = fig + block
+    if "<!--TOC-->" in body:
+        return body.replace("<!--TOC-->", block, 1)
+    i = body.find("</p>")
+    return body[:i + 4] + block + body[i + 4:] if i >= 0 else block + body
+
 def write(rel, text):
     path = os.path.join(ROOT, *rel.split("/"))
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -115,7 +152,7 @@ def blog_index(posts):
         f'<h2>{html.escape(m["h1"])}</h2><p>{html.escape(m["desc"])}</p></a></li>' for m, _ in reversed(posts))
     body = ('<section class="page-head"><div class="wrap"><span class="eyebrow">Guider</span><h1>Guider om IPTV i Sverige</h1>'
             '<p>Installation, appar, bildkvalitet och felsökning. Vi skriver om sådant kunder faktiskt frågar oss om. '
-            'Vill du hellre läsa om priserna finns de på <a href="/iptv-abonnemang/" style="color:var(--signal)">sidan om IPTV-abonnemang</a>.</p></div></section>'
+            'Vill du hellre läsa om priserna finns de på <a href="/iptv-abonnemang/" style="color:var(--signal-soft)">sidan om IPTV-abonnemang</a>.</p></div></section>'
             f'<div class="wrap"><ul class="posts">{items}</ul></div>')
     meta = {"title": "Guider om IPTV i Sverige: appar, installation och felsökning",
             "desc": "Guider om IPTV i Sverige: välj app, installera på Smart TV och Apple TV, få 4K att flyta och lös hackande bild. Skrivna av vår support."}
@@ -131,7 +168,7 @@ def main():
         url = BASE + "/" + (slug + "/" if slug else "")
         trail = [(meta["crumb"], url)] if slug and slug != "404" else []
         name = slug or "home"
-        doc = page(meta, body, url, trail, name, meta.get("schema", []))
+        doc = page(meta, enrich(body, meta, name), url, trail, name, meta.get("schema", []))
         og.append((name, meta.get("og", meta["title"])))
         if slug == "404":
             write("404.html", doc.replace(f'<link rel="canonical" href="{url}">\n', ""))
@@ -145,10 +182,19 @@ def main():
         nxt = posts[i + 1][0] if i + 1 < len(posts) else None
         trail = [("Guider", BASE + "/blogg/"), (meta["crumb"], meta["url"])]
         schema = [article_schema(meta)] + meta.get("schema", [])
+        body = enrich(body, meta, "blogg-" + meta["slug"])
         write(f"blogg/{meta['slug']}/index.html",
               page(meta, article(meta, body, prev, nxt), meta["url"], trail, "blogg-" + meta["slug"], schema, "article"))
         og.append(("blogg-" + meta["slug"], meta["h1"]))
         sitemap.append((meta["url"], meta.get("updated", meta["date"])))
+    # moved pages: noindex stub with canonical + instant refresh (GitHub Pages has no server-side 301)
+    for old, new in SITE.get("redirects", {}).items():
+        u = BASE + new
+        write(old.strip("/") + "/index.html",
+              f'<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><title>Sidan har flyttat</title>'
+              f'<link rel="canonical" href="{u}"><meta name="robots" content="noindex, follow">'
+              f'<meta http-equiv="refresh" content="0; url={u}"><script>location.replace("{u}")</script></head>'
+              f'<body><p>Sidan har flyttat till <a href="{u}">{u}</a>.</p></body></html>\n')
     write("blogg/index.html", blog_index(posts))
     og.append(("blogg", "Guider om IPTV i Sverige"))
     sitemap.append((BASE + "/blogg/", posts[-1][0]["date"] if posts else SITE["launched"]))
