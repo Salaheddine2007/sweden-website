@@ -26,6 +26,7 @@ def main():
     ap = argparse.ArgumentParser()
     for a in ("keyword", "slug", "h1", "title", "desc", "crumb", "tldr", "article"):
         ap.add_argument("--" + a, required=True)
+    ap.add_argument("--source", action="append", default=[], help='"Label|https://url", repeat 2-4 times')
     a = ap.parse_args()
 
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", a.slug):
@@ -46,10 +47,25 @@ def main():
         fail("no link to /iptv-abonnemang/")
     if not re.search(r'href="https?://(?!(www\.)?bastaiptvhd\.se)', body):
         fail("no external link")
+    heads = [re.sub(r"<[^>]+>", "", h).lower() for h in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", body, re.S)]
+    kw_heads = sum(a.keyword.lower() in h for h in heads)
+    if kw_heads > max(3, len(heads) // 4):
+        fail(f"keyword in {kw_heads} of {len(heads)} headings - keep it in 2-3, write the rest naturally")
+    claims = re.findall(r"(?i)kunder (?:använder|väljer|säger) (?:mest|oftast)|de flesta (?:av våra )?kunder|under \d+ minuter|inom \d+ minuter|tio minuter från|\d+ ?% av (?:våra|alla)", body)
+    if claims:
+        fail(f"unverifiable claim(s): {claims} - only use the confirmed facts")
+    sources = []
+    for s in a.source:
+        label, _, url = s.partition("|")
+        if not (label.strip() and re.match(r"https://", url.strip())):
+            fail(f"bad --source {s!r}, use \"Label|https://url\"")
+        sources.append([label.strip(), url.strip()])
 
     today = date.today().isoformat()
     meta = {"slug": a.slug, "tldr": a.tldr, "crumb": a.crumb, "keyword": a.keyword, "date": today, "updated": today,
             "h1": a.h1, "title": a.title, "desc": a.desc}
+    if sources:
+        meta["sources"] = sources
     os.makedirs(os.path.dirname(src), exist_ok=True)
     open(src, "w", encoding="utf-8", newline="\n").write("<!--" + json.dumps(meta, ensure_ascii=False) + "-->\n" + body + "\n")
 

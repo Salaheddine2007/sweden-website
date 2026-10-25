@@ -26,7 +26,7 @@ for asset in ("site.css", "site.js"):
     LAYOUT = LAYOUT.replace(f'/assets/{asset}"', f'/assets/{asset}?v={v}"')
 MONTHS = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"]
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": BASE + "/#org", "name": SITE["name"], "url": BASE + "/",
-       "logo": BASE + "/assets/icons/icon-512.png", "areaServed": "SE",
+       "logo": BASE + "/assets/icons/icon-512.png", "areaServed": "SE", "publishingPrinciples": BASE + "/om-oss/#sa-skriver-vi",
        "description": "BästaIPTVHD säljer IPTV-abonnemang med svenska och nordiska kanaler i HD till hushåll i Sverige, med beställning och support via WhatsApp.",
        "knowsAbout": ["IPTV", "IPTV Sverige", "Nordic IPTV", "Smart TV", "Apple TV", "Android TV", "Fire TV Stick", "EPG"],
        "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "availableLanguage": ["sv", "en"], "url": BASE + "/kontakt/"}}
@@ -173,8 +173,13 @@ def article(meta, body, prev, nxt):
     head = (f'<section class="page-head"><div class="wrap"><span class="eyebrow">Guide</span><h1>{html.escape(meta["h1"])}</h1>'
             f'<p class="post-meta">Publicerad <time datetime="{meta["date"]}">{nice_date(meta["date"])}</time>'
             f' · Uppdaterad <time datetime="{updated}">{nice_date(updated)}</time></p></div></section>')
-    author = ('<aside class="author" aria-label="Om skribenten"><div class="author-pic" aria-hidden="true">B</div><div>'
-              f'<p><strong>{html.escape(SITE["author"]["name"])}</strong></p><p>{SITE["author"]["bio"]}</p></div></aside>')
+    author = ('<aside class="author" aria-label="Om skribenten"><img class="author-pic" src="/assets/icons/mark.svg" width="56" height="56" alt=""><div>'
+              f'<p><strong>{html.escape(SITE["author"]["name"])}</strong></p><p>{SITE["author"]["bio"]} '
+              '<a href="/om-oss/#sa-skriver-vi">Så skriver vi guiderna</a>.</p></div></aside>')
+    sources = ""
+    if meta.get("sources"):
+        items = "".join(f'<li><a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(n)}</a></li>' for n, u in meta["sources"])
+        sources = f'<aside class="sources" aria-label="Källor"><p class="sources-h">Källor och officiella hjälpsidor</p><ul>{items}</ul></aside>'
     pn = ""
     if prev or nxt:
         pn = '<nav class="pn" aria-label="Fler guider">'
@@ -183,7 +188,7 @@ def article(meta, body, prev, nxt):
         if nxt:
             pn += f'<a class="next" href="{nxt["url"]}" rel="next"><small>Nästa guide</small>{html.escape(nxt["h1"])}</a>'
         pn += "</nav>"
-    return f'{head}<div class="wrap"><article class="prose">{body}{author}{pn}</article></div>'
+    return f'{head}<div class="wrap"><article class="prose">{body}{sources}{author}{pn}</article></div>'
 
 def article_schema(meta):
     return {"@context": "https://schema.org", "@type": "Article", "headline": meta["h1"], "description": meta["desc"],

@@ -27,9 +27,9 @@
 <meta name="theme-color" content="#08001A">
 <link rel="preload" href="/assets/fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=429096ae">
+<link rel="stylesheet" href="/assets/site.css?v=fa375d70">
 <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://bastaiptvhd.se/#org", "name": "BästaIPTVHD", "url": "https://bastaiptvhd.se/", "logo": "https://bastaiptvhd.se/assets/icons/icon-512.png", "areaServed": "SE", "description": "BästaIPTVHD säljer IPTV-abonnemang med svenska och nordiska kanaler i HD till hushåll i Sverige, med beställning och support via WhatsApp.", "knowsAbout": ["IPTV", "IPTV Sverige", "Nordic IPTV", "Smart TV", "Apple TV", "Android TV", "Fire TV Stick", "EPG"], "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "availableLanguage": ["sv", "en"], "url": "https://bastaiptvhd.se/kontakt/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://bastaiptvhd.se/#org", "name": "BästaIPTVHD", "url": "https://bastaiptvhd.se/", "logo": "https://bastaiptvhd.se/assets/icons/icon-512.png", "areaServed": "SE", "publishingPrinciples": "https://bastaiptvhd.se/om-oss/#sa-skriver-vi", "description": "BästaIPTVHD säljer IPTV-abonnemang med svenska och nordiska kanaler i HD till hushåll i Sverige, med beställning och support via WhatsApp.", "knowsAbout": ["IPTV", "IPTV Sverige", "Nordic IPTV", "Smart TV", "Apple TV", "Android TV", "Fire TV Stick", "EPG"], "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "availableLanguage": ["sv", "en"], "url": "https://bastaiptvhd.se/kontakt/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://bastaiptvhd.se/#site", "name": "BästaIPTVHD", "url": "https://bastaiptvhd.se/", "inLanguage": "sv-SE", "publisher": {"@id": "https://bastaiptvhd.se/#org"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Hem", "item": "https://bastaiptvhd.se/"}, {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://bastaiptvhd.se/blogg/"}, {"@type": "ListItem", "position": 3, "name": "IPTV-tv-guide (EPG)", "item": "https://bastaiptvhd.se/blogg/iptv-epg-tv-guide/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "IPTV-tv-guide (EPG): så får du tablån att visa rätt", "description": "Vad är EPG i IPTV och varför visar tv-guiden fel tid, fel program eller ingenting alls? Så fungerar tablån, och så löser du de vanligaste felen steg för steg.", "inLanguage": "sv-SE", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "mainEntityOfPage": "https://bastaiptvhd.se/blogg/iptv-epg-tv-guide/", "image": "https://bastaiptvhd.se/assets/og/blogg-iptv-epg-tv-guide.png", "author": {"@type": "Organization", "name": "Supporten på BästaIPTVHD", "url": "https://bastaiptvhd.se/om-oss/"}, "publisher": {"@id": "https://bastaiptvhd.se/#org"}}</script>
@@ -59,8 +59,12 @@
 <p>Tv-guiden är det som får IPTV att kännas som vanlig tv. Utan den blir det en lång lista med kanalnamn. Den här guiden förklarar hur EPG fungerar, hur du får den att visa rätt, och vad du gör när den inte gör det.</p>
 
 <h2 id="hur-fungerar-epg-i-iptv">Hur fungerar EPG i IPTV?</h2>
-<p>När du lägger in ditt abonnemang i en IPTV-app hämtar appen två saker. Den första är kanallistan, med adresser till varje kanals ström. Den andra är tv-guiden, en stor fil med programinformation för de närmaste dagarna. Appen kopplar ihop dem med hjälp av ett id för varje kanal.</p>
-<p>Det betyder tre praktiska saker. Tv-guiden kan saknas även om kanalerna fungerar, eftersom de hämtas separat. Den kan vara inaktuell om appen inte har hämtat en ny version. Och den kan hamna på fel kanal om id:t inte matchar, vilket är ovanligt men händer.</p>
+<p>När du lägger in ditt abonnemang i en IPTV-app hämtar appen två saker. Den första är kanallistan, med adresser till varje kanals ström.</p>
+
+<p>Den andra är tv-guiden, en stor fil med programinformation för de närmaste dagarna. Appen kopplar ihop dem med hjälp av ett id för varje kanal.</p>
+<p>Det betyder tre praktiska saker. Tv-guiden kan saknas även om kanalerna fungerar, eftersom de hämtas separat.</p>
+
+<p>Den kan vara inaktuell om appen inte har hämtat en ny version. Och den kan hamna på fel kanal om id:t inte matchar, vilket är ovanligt men händer.</p>
 <p>Programinformationen räknas i universell tid, UTC. Appen räknar om tiderna till din tidszon med hjälp av enhetens klocka. Därför flyttar fel tidszon på enheten hela tablån.</p>
 
 <h2 id="vanliga-epg-fel-och-hur-du-loser-dem">Vanliga EPG-fel och hur du löser dem</h2>
@@ -85,7 +89,9 @@
 </ul>
 
 <h3>Tablån visar fel program på en kanal</h3>
-<p>Det betyder att kanalens id inte matchar rätt programinformation. Sällsynt, men det händer när en kanal byter namn eller nummer. Skriv till oss vilken kanal det gäller så kontrollerar vi. Det går inte att lösa själv i appen.</p>
+<p>Det betyder att kanalens id inte matchar rätt programinformation. Sällsynt, men det händer när en kanal byter namn eller nummer.</p>
+
+<p>Skriv till oss vilken kanal det gäller så kontrollerar vi. Det går inte att lösa själv i appen.</p>
 
 <h3>Tv-guiden visar bara dagens program</h3>
 <p>Många appar sparar bara ett par dagar framåt för att spara utrymme. Inställningen heter ofta antal dagar för EPG. Ökar du den tar uppdateringen längre tid.</p>
@@ -120,9 +126,13 @@
 <p>Sökfunktionen i tv-guiden letar i programinformationen, inte bara bland kanalnamn. Sök på ett lag eller en serie för att se när den sänds härnäst.</p>
 
 <h2 id="tidszoner-och-sommartid-i-norden">Tidszoner och sommartid i Norden</h2>
-<p>Sverige, Norge och Danmark ligger i samma tidszon, centraleuropeisk tid. Finland ligger en timme före. Det har betydelse om du tittar på kanaler från grannländerna: tablån för en finsk kanal visas ändå i din lokala tid, så länge enhetens tidszon är Stockholm. Du behöver alltså inte räkna om något själv.</p>
+<p>Sverige, Norge och Danmark ligger i samma tidszon, centraleuropeisk tid. Finland ligger en timme före.</p>
+
+<p>Det har betydelse om du tittar på kanaler från grannländerna: tablån för en finsk kanal visas ändå i din lokala tid, så länge enhetens tidszon är Stockholm. Du behöver alltså inte räkna om något själv.</p>
 <p>Problemet uppstår om enheten är inställd på fel tidszon, eller om automatisk sommartid är avstängd. Två gånger om året, sista söndagen i mars och sista söndagen i oktober, flyttas klockan. Enheter med manuell tid hänger inte med, och hela tablån hamnar en timme fel tills någon ändrar det.</p>
-<p>Ett vanligt exempel är en box som har köpts från en butik utanför Europa. Den kan vara inställd på en tidszon i Asien från fabriken. Kanalerna fungerar perfekt, men tv-guiden visar program som gick för flera timmar sedan. Rätt tidszon på enheten löser det på en minut.</p>
+<p>Ett vanligt exempel är en box som har köpts från en butik utanför Europa. Den kan vara inställd på en tidszon i Asien från fabriken.</p>
+
+<p>Kanalerna fungerar perfekt, men tv-guiden visar program som gick för flera timmar sedan. Rätt tidszon på enheten löser det på en minut.</p>
 
 <h2 id="nar-en-kanal-byter-namn-eller-plats">När en kanal byter namn eller plats</h2>
 <p>Tv-kanaler byter ibland namn, slås ihop eller flyttar till ett annat nummer. När det händer kan det ta ett par dagar innan tv-guiden har följt med. Under tiden kan kanalen sakna tablå, eller visa programmen för den gamla kanalen.</p>
@@ -137,7 +147,9 @@
   <li><strong>Gör en favoritlista per person</strong> om appen har stöd för det. Barnkanaler i en lista, sport i en annan.</li>
   <li><strong>Använd catch-up</strong> om kanalen har det, för att se början av ett program du kom in mitt i.</li>
 </ul>
-<p>Ju mer du använder favoriter, desto snabbare blir också tv-guiden. Den behöver då bara visa de kanaler du faktiskt tittar på. Vill du kontrollera exakt när sommartiden börjar och slutar i år, visar <a href="https://www.timeanddate.com/time/zone/sweden/stockholm" rel="noopener" target="_blank">timeanddate.com</a> datumen för Stockholm. För tv-guidens skull räcker det att slå på automatisk tid.</p>
+<p>Ju mer du använder favoriter, desto snabbare blir också tv-guiden. Den behöver då bara visa de kanaler du faktiskt tittar på.</p>
+
+<p>Vill du kontrollera exakt när sommartiden börjar och slutar i år, visar <a href="https://www.timeanddate.com/time/zone/sweden/stockholm" rel="noopener" target="_blank">timeanddate.com</a> datumen för Stockholm. För tv-guidens skull räcker det att slå på automatisk tid.</p>
 
 <h2 id="snabbguide-fa-epg-att-fungera-pa-fem-minuter">Snabbguide: få EPG att fungera på fem minuter</h2>
 <ol>
@@ -155,7 +167,9 @@
 <p>Tänk också på att tv-guiden laddas separat på varje enhet. Har du ändrat tidszonen på en enhet behöver du göra det på de andra också.</p>
 
 <h2 id="vad-epg-inte-kan-gora">Vad EPG inte kan göra</h2>
-<p>Tv-guiden visar vad kanalerna har meddelat att de ska sända. Om ett program blir försenat, till exempel för att en match går till förlängning, uppdateras inte alltid tablån i realtid. Programmet efter kan då börja senare än tablån säger. Det är samma sak på vanlig tv, men märks tydligare när man använder påminnelser.</p>
+<p>Tv-guiden visar vad kanalerna har meddelat att de ska sända. Om ett program blir försenat, till exempel för att en match går till förlängning, uppdateras inte alltid tablån i realtid.</p>
+
+<p>Programmet efter kan då börja senare än tablån säger. Det är samma sak på vanlig tv, men märks tydligare när man använder påminnelser.</p>
 <p>Tv-guiden kan inte heller visa program för kanaler som inte skickar ut programinformation. Det gäller en del mindre kanaler, och då visas bara kanalnamnet. Appen gör inget fel.</p>
 <p>Slutligen: catch-up, att kunna se program i efterhand, beror helt på kanalen. Finns det inte för en kanal går det inte att slå på i appen.</p>
 
@@ -190,7 +204,7 @@
   <li><a href="/blogg/iptv-laggar/">När IPTV laggar eller buffrar</a></li>
   <li><a href="/iptv-pa-smart-tv/">IPTV på Samsung och LG Smart TV</a></li>
 </ul></div>
-<aside class="author" aria-label="Om skribenten"><div class="author-pic" aria-hidden="true">B</div><div><p><strong>Supporten på BästaIPTVHD</strong></p><p>Vi som svarar på WhatsApp och hjälper kunder att installera IPTV på Smart TV, Apple TV, Android-boxar och mobiler. Guiderna bygger på de frågor vi får varje vecka.</p></div></aside><nav class="pn" aria-label="Fler guider"><a class="prev" href="https://bastaiptvhd.se/blogg/basta-iptv-appen/" rel="prev"><small>Föregående guide</small>Bästa IPTV-appen för din tv, box och mobil</a><a class="next" href="https://bastaiptvhd.se/blogg/iptv-i-4k/" rel="next"><small>Nästa guide</small>IPTV i 4K: vad som krävs och när det är värt det</a></nav></article></div>
+<aside class="sources" aria-label="Källor"><p class="sources-h">Källor och officiella hjälpsidor</p><ul><li><a href="https://www.timeanddate.com/time/zone/sweden/stockholm" target="_blank" rel="noopener">Tidszon Stockholm (timeanddate)</a></li><li><a href="https://support.google.com/androidtv/" target="_blank" rel="noopener">Android TV Hjälp (Google)</a></li><li><a href="https://support.apple.com/sv-se/apple-tv" target="_blank" rel="noopener">Apple TV Support</a></li></ul></aside><aside class="author" aria-label="Om skribenten"><img class="author-pic" src="/assets/icons/mark.svg" width="56" height="56" alt=""><div><p><strong>Supporten på BästaIPTVHD</strong></p><p>Guiderna skrivs av supporten på BästaIPTVHD, samma personer som svarar på WhatsApp. Inställningar och appfunktioner kontrolleras mot tillverkarnas egna hjälpsidor, och vi rättar texten när något ändras. <a href="/om-oss/#sa-skriver-vi">Så skriver vi guiderna</a>.</p></div></aside><nav class="pn" aria-label="Fler guider"><a class="prev" href="https://bastaiptvhd.se/blogg/basta-iptv-appen/" rel="prev"><small>Föregående guide</small>Bästa IPTV-appen för din tv, box och mobil</a><a class="next" href="https://bastaiptvhd.se/blogg/iptv-i-4k/" rel="next"><small>Nästa guide</small>IPTV i 4K: vad som krävs och när det är värt det</a></nav></article></div>
 </main>
 <footer class="foot">
   <div class="wrap foot-in">
