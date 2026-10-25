@@ -102,12 +102,6 @@
   "intent": "Informational"
  },
  {
-  "keyword": "hur funkar iptv",
-  "slug": "hur-funkar-iptv",
-  "volume": 70,
-  "intent": "Informational"
- },
- {
   "keyword": "iptv utan box",
   "slug": "iptv-utan-box",
   "volume": 70,
@@ -128,18 +122,6 @@
  {
   "keyword": "iptv box wifi",
   "slug": "iptv-box-wifi",
-  "volume": 40,
-  "intent": "Informational"
- },
- {
-  "keyword": "iptv fungerar inte",
-  "slug": "iptv-fungerar-inte",
-  "volume": 40,
-  "intent": "Informational"
- },
- {
-  "keyword": "iptv installation",
-  "slug": "iptv-installation",
   "volume": 40,
   "intent": "Informational"
  },
@@ -1692,12 +1674,6 @@
   "intent": ""
  },
  {
-  "keyword": "funkar iptv",
-  "slug": "funkar-iptv",
-  "volume": 0,
-  "intent": ""
- },
- {
   "keyword": "funkar iptv med apple tv",
   "slug": "funkar-iptv-med-apple-tv",
   "volume": 0,
@@ -1746,12 +1722,6 @@
   "intent": ""
  },
  {
-  "keyword": "hur funkar en iptv box",
-  "slug": "hur-funkar-en-iptv-box",
-  "volume": 0,
-  "intent": ""
- },
- {
   "keyword": "hur funkar iptv android",
   "slug": "hur-funkar-iptv-android",
   "volume": 0,
@@ -1790,12 +1760,6 @@
  {
   "keyword": "hur ställa in smart iptv på lg",
   "slug": "hur-stalla-in-smart-iptv-pa-lg",
-  "volume": 0,
-  "intent": ""
- },
- {
-  "keyword": "installera iptv box",
-  "slug": "installera-iptv-box",
   "volume": 0,
   "intent": ""
  },
@@ -3194,12 +3158,6 @@
  {
   "keyword": "vad är mag iptv",
   "slug": "vad-ar-mag-iptv",
-  "volume": 0,
-  "intent": ""
- },
- {
-  "keyword": "vilka boxar fungerar med iptv",
-  "slug": "vilka-boxar-fungerar-med-iptv",
   "volume": 0,
   "intent": ""
  },
