@@ -4,11 +4,10 @@
   function store(k, v) { try { v === undefined ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) {} }
   function read(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
-  // light / dark: follows the OS until the visitor picks one
+  // light / dark: dark by default, the visitor can switch
   var toggle = document.querySelector("[data-theme-toggle]");
   if (toggle) toggle.addEventListener("click", function () {
-    var dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-    root.dataset.theme = dark ? "light" : "dark";
+    root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";  // dark is the default brand look
     store("theme", root.dataset.theme);
   });
 

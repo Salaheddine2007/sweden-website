@@ -21,10 +21,33 @@ BASE = SITE["base"]
 LAYOUT = open(os.path.join(TOOLS, "layout.html"), encoding="utf-8").read()
 MONTHS = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"]
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": BASE + "/#org", "name": SITE["name"], "url": BASE + "/",
-       "logo": BASE + "/assets/icons/icon-512.png",
+       "logo": BASE + "/assets/icons/icon-512.png", "areaServed": "SE",
+       "description": "BästaIPTVHD säljer IPTV-abonnemang med svenska och nordiska kanaler i HD till hushåll i Sverige, med beställning och support via WhatsApp.",
+       "knowsAbout": ["IPTV", "IPTV Sverige", "Nordic IPTV", "Smart TV", "Apple TV", "Android TV", "Fire TV Stick", "EPG"],
        "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "availableLanguage": ["sv", "en"], "url": BASE + "/kontakt/"}}
 WEBSITE = {"@context": "https://schema.org", "@type": "WebSite", "@id": BASE + "/#site", "name": SITE["name"], "url": BASE + "/",
            "inLanguage": "sv-SE", "publisher": {"@id": BASE + "/#org"}}
+
+# inline SVG icons (Lucide style, 24x24 stroke); use {{I:name}} in page sources
+ICONS = {
+    "check": '<path d="M20 6 9 17l-5-5"/>',
+    "tv": '<rect x="2" y="7" width="20" height="15" rx="2"/><path d="m17 2-5 5-5-5"/>',
+    "monitor": '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>',
+    "phone": '<rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/>',
+    "box": '<path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/>',
+    "globe": '<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>',
+    "spark": '<path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2z"/>',
+    "calendar": '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
+    "film": '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 3v18M17 3v18M3 8h4M17 8h4M3 16h4M17 16h4"/>',
+    "wifi": '<path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M2 9a15 15 0 0 1 20 0"/><path d="M12 20h.01"/>',
+    "chat": '<path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-4-1L3 20l1.2-4.4A8.4 8.4 0 1 1 21 11.5z"/>',
+    "shield": '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>',
+    "laptop": '<path d="M4 16V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10M2 20h20"/>',
+    "zap": '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+}
+
+def icon(name):
+    return f'<svg class="icon" viewBox="0 0 24 24" aria-hidden="true">{ICONS[name]}</svg>'
 
 def wa(msg):
     return f"https://api.whatsapp.com/send/?phone={SITE['whatsapp']}&amp;text={quote(msg)}"
@@ -53,8 +76,13 @@ def crumbs(trail):
 def page(meta, body, url, trail, og_name, extra_schema=(), og_type="website"):
     crumb_html, crumb_schema = crumbs(trail)
     schema = [ORG, WEBSITE] + ([crumb_schema] if crumb_schema else []) + list(extra_schema)
+    if meta.get("tldr") or meta.get("speakable"):
+        schema.append({"@context": "https://schema.org", "@type": "WebPage", "@id": url + "#webpage", "url": url, "name": meta["title"],
+                       "inLanguage": "sv-SE", "isPartOf": {"@id": BASE + "/#site"}, "dateModified": meta.get("updated", SITE["launched"]),
+                       "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".kort", ".facts", "h1"]}})
     head = "\n".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in schema)
     body = re.sub(r"\{\{WA:([^}]*)\}\}", lambda m: wa(m.group(1)), body)
+    body = re.sub(r"\{\{I:([a-z]+)\}\}", lambda m: icon(m.group(1)), body)
     out = LAYOUT
     for k, v in {"TITLE": html.escape(meta["title"]), "DESC": html.escape(meta["desc"]), "URL": url, "OG_TYPE": og_type,
                  "ROBOTS": meta.get("robots", "index, follow, max-image-preview:large"), "HEAD": head,
@@ -74,10 +102,17 @@ def slug_id(text):
     t = unicodedata.normalize("NFKD", html.unescape(re.sub(r"<[^>]+>", "", text))).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:60]
 
+def kort(meta):
+    return (f'<aside class="kort" aria-label="Kort svar"><div class="kort-title">Kort svar</div>'
+            f'<p>{html.escape(meta["tldr"])}</p></aside>')
+
 def enrich(body, meta, og_name):
     """Rank Math helpers for pages with a focus keyword: ids on H2s, a table of contents ("Innehåll")
     and a featured image whose alt text carries the keyword. Placed at <!--TOC--> / <!--FIGURE-->
     markers when the source has them, otherwise right after the first paragraph."""
+    tldr_done = False
+    if meta.get("tldr") and "<!--TOC-->" in body:
+        body = body.replace("<!--TOC-->", kort(meta) + "<!--TOC-->", 1); tldr_done = True
     seen = set()
     def add_id(m):
         if "id=" in m.group(1):
@@ -108,7 +143,8 @@ def enrich(body, meta, og_name):
     if "<!--TOC-->" in body:
         return body.replace("<!--TOC-->", block, 1)
     i = body.find("</p>")
-    return body[:i + 4] + block + body[i + 4:] if i >= 0 else block + body
+    body = body[:i + 4] + block + body[i + 4:] if i >= 0 else block + body
+    return (kort(meta) + body) if meta.get("tldr") and not tldr_done else body
 
 def write(rel, text):
     path = os.path.join(ROOT, *rel.split("/"))
@@ -161,7 +197,28 @@ def blog_index(posts):
     meta = {"title": "Guider om IPTV i Sverige: appar, installation och felsökning",
             "desc": "Guider om IPTV i Sverige: välj app, installera på Smart TV och Apple TV, få 4K att flyta och lös hackande bild. Skrivna av vår support."}
     return page(meta, body, BASE + "/blogg/", [("Guider", BASE + "/blogg/")], "blogg",
-                [{"@context": "https://schema.org", "@type": "Blog", "name": "Guider – BästaIPTVHD", "url": BASE + "/blogg/", "inLanguage": "sv-SE"}])
+                [{"@context": "https://schema.org", "@type": "Blog", "name": "Guider – BästaIPTVHD", "url": BASE + "/blogg/", "inLanguage": "sv-SE"},
+                 {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
+                     {"@type": "ListItem", "position": i + 1, "url": m["url"], "name": m["h1"]} for i, (m, _) in enumerate(posts)]}])
+
+def llms_txt(posts):
+    """/llms.txt: a plain summary of the site for AI assistants (llmstxt.org format)"""
+    pages = []
+    for fn in sorted(os.listdir(os.path.join(TOOLS, "pages"))):
+        meta, _ = read_source(os.path.join(TOOLS, "pages", fn))
+        if meta["slug"] in ("404",) or "noindex" in meta.get("robots", ""):
+            continue
+        pages.append((meta["title"], BASE + "/" + (meta["slug"] + "/" if meta["slug"] else ""), meta.get("tldr") or meta["desc"]))
+    out = [f"# {SITE['name']}", "",
+           "> BästaIPTVHD säljer IPTV-abonnemang med svenska och nordiska kanaler i HD till svenska hushåll. "
+           "Beställning, betalning och hjälp med installationen sker via WhatsApp.", "",
+           "## Fakta", ""]
+    out += [f"- {k}: {v}" for k, v in SITE["facts"]]
+    pages.sort(key=lambda x: (x[1] != BASE + "/", x[1]))  # homepage first
+    out += ["", "## Sidor", ""] + [f"- [{t}]({u}): {d}" for t, u, d in pages]
+    out += ["", "## Guider", ""] + [f"- [{m['h1']}]({m['url']}): {m.get('tldr') or m['desc']}" for m, _ in posts]
+    out += ["", f"Senast uppdaterad: {max([SITE['launched']] + [m.get('updated', m['date']) for m, _ in posts])}", ""]
+    return "\n".join(out)
 
 def main():
     sitemap, og = [], []
@@ -208,6 +265,7 @@ def main():
         for u, lm in sitemap:
             f.write(f"  <url><loc>{u}</loc><lastmod>{lm}</lastmod></url>\n")
         f.write("</urlset>\n")
+    write("llms.txt", llms_txt(posts))
     made = make_og.build(os.path.join(ROOT, "assets", "og"), og)
     print(f"built {len(sitemap)} indexable urls ({len(posts)} articles), 404, sitemap, {made} new og images")
 

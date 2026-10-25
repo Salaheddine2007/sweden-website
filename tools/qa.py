@@ -106,6 +106,15 @@ def main():
         body_links = {h for h in re.findall(r'href="((?:%s)?/[^"#?]*)"' % re.escape(BASE), main_part)}
         if url != "/404.html" and len(body_links) < 3: bad(f"only {len(body_links)} internal links in content")
         for h in internal: linked.setdefault(h, set()).add(url)
+    # AI-search readiness: crawlers allowed, llms.txt present, a quotable answer on every keyword page
+    robots = open(os.path.join(ROOT, "robots.txt"), encoding="utf-8").read()
+    for bot in ("GPTBot", "OAI-SearchBot", "ClaudeBot", "PerplexityBot", "Google-Extended"):
+        if bot not in robots: problems.append(f"robots.txt: {bot} not explicitly allowed")
+    if not os.path.exists(os.path.join(ROOT, "llms.txt")): problems.append("llms.txt missing")
+    for url, m in src.items():
+        if m.get("keyword") and url != "/" and 'class="kort"' not in all_pages.get(url, ""):
+            problems.append(f"{url}: GEO: no 'Kort svar' answer box")
+    if 'class="facts"' not in all_pages.get("/", ""): problems.append("/: GEO: no facts list")
     for url in exists:
         if url not in ("/", "/404.html") and not linked.get(url):
             problems.append(f"{url}: orphan (no page links to it)")

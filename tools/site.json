@@ -19,5 +19,43 @@
   "/blogg/iptv-pc-mac/": "/blogg/iptv-pa-datorn/",
   "/iptv-smart-tv/": "/iptv-pa-smart-tv/",
   "/iptv-sport/": "/iptv-for-sport/"
- }
+ },
+ "facts": [
+  [
+   "Pris",
+   "179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader, 769 kr för 12 månader (64 kr/mån)"
+  ],
+  [
+   "Bindningstid",
+   "Ingen. Abonnemanget förnyas inte automatiskt"
+  ],
+  [
+   "Kanaler",
+   "Svenska kanaler samt kanaler från Norge, Danmark och Finland. Utbudet kan ändras över tid"
+  ],
+  [
+   "Bildkvalitet",
+   "HD, och 4K där kanalen sänder i 4K"
+  ],
+  [
+   "Enheter",
+   "Samsung och LG Smart TV, Android TV, Google TV, Fire TV Stick, Apple TV, iPhone, iPad, Android, Windows, Mac och MAG-box"
+  ],
+  [
+   "Internethastighet",
+   "Minst 10 Mbit/s per skärm för HD, 25 Mbit/s för 4K"
+  ],
+  [
+   "Beställning och support",
+   "Via WhatsApp, på svenska och engelska"
+  ],
+  [
+   "Betalning",
+   "Visa, Mastercard, Maestro, Klarna, Apple Pay, Google Pay, PayPal, SEPA, Bancontact, iDEAL, giropay, Cartes Bancaires"
+  ],
+  [
+   "Skärmar",
+   "Priserna gäller en skärm åt gången"
+  ]
+ ]
 }

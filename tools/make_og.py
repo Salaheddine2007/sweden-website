@@ -5,7 +5,7 @@ point at a 404 image.
 """
 import os, shutil
 
-NIGHT, SIGNAL, WHITE, MIST = (10, 37, 51), (214, 40, 57), (255, 255, 255), (181, 202, 212)
+NIGHT, SIGNAL, WHITE, MIST = (11, 13, 23), (225, 29, 72), (255, 255, 255), (142, 151, 176)
 FONTS_BOLD = ["C:/Windows/Fonts/arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
               "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"]
 
@@ -29,8 +29,16 @@ def _wrap(draw, text, font, width):
 def card(path, title):
     from PIL import Image, ImageDraw
     img = Image.new("RGB", (1200, 630), NIGHT)
+    # soft crimson glow top-right, like the site hero
+    glow = Image.new("RGB", (1200, 630), NIGHT)
+    gd = ImageDraw.Draw(glow)
+    for r, a in ((520, 18), (400, 30), (280, 46)):
+        col = tuple(int(NIGHT[i] + (SIGNAL[i] - NIGHT[i]) * a / 100) for i in range(3))
+        gd.ellipse([1200 - r, -r, 1200 + r, r], fill=col)
+    from PIL import ImageFilter
+    img = glow.filter(ImageFilter.GaussianBlur(90))
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 600, 1200, 630], fill=SIGNAL)
+    d.rectangle([0, 618, 1200, 630], fill=SIGNAL)
     brand = _font(44)
     d.text((80, 70), "bästa iptv", font=brand, fill=WHITE)
     x = 80 + d.textlength("bästa iptv ", font=brand)
