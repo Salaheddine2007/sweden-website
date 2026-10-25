@@ -19,6 +19,11 @@ import make_og
 SITE = json.load(open(os.path.join(TOOLS, "site.json"), encoding="utf-8"))
 BASE = SITE["base"]
 LAYOUT = open(os.path.join(TOOLS, "layout.html"), encoding="utf-8").read()
+# cache-busting: ?v=<content hash> on the stylesheet and script so a new build is never hidden by browser cache
+import hashlib
+for asset in ("site.css", "site.js"):
+    v = hashlib.md5(open(os.path.join(ROOT, "assets", asset), "rb").read()).hexdigest()[:8]
+    LAYOUT = LAYOUT.replace(f'/assets/{asset}"', f'/assets/{asset}?v={v}"')
 MONTHS = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"]
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": BASE + "/#org", "name": SITE["name"], "url": BASE + "/",
        "logo": BASE + "/assets/icons/icon-512.png", "areaServed": "SE",
