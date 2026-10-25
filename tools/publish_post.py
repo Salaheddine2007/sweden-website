@@ -24,7 +24,7 @@ def fail(msg):
 
 def main():
     ap = argparse.ArgumentParser()
-    for a in ("keyword", "slug", "h1", "title", "desc", "crumb", "article"):
+    for a in ("keyword", "slug", "h1", "title", "desc", "crumb", "tldr", "article"):
         ap.add_argument("--" + a, required=True)
     a = ap.parse_args()
 
@@ -48,7 +48,7 @@ def main():
         fail("no external link")
 
     today = date.today().isoformat()
-    meta = {"slug": a.slug, "crumb": a.crumb, "keyword": a.keyword, "date": today, "updated": today,
+    meta = {"slug": a.slug, "tldr": a.tldr, "crumb": a.crumb, "keyword": a.keyword, "date": today, "updated": today,
             "h1": a.h1, "title": a.title, "desc": a.desc}
     os.makedirs(os.path.dirname(src), exist_ok=True)
     open(src, "w", encoding="utf-8", newline="\n").write("<!--" + json.dumps(meta, ensure_ascii=False) + "-->\n" + body + "\n")
