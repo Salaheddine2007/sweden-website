@@ -1,0 +1,3278 @@
+[
+ {
+  "keyword": "bästa iptv app android",
+  "slug": "basta-iptv-app-android",
+  "volume": 140,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "bästa iptv app iphone",
+  "slug": "basta-iptv-app-iphone",
+  "volume": 140,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "iptv premium",
+  "slug": "iptv-premium",
+  "volume": 70,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "bästa iptv appen android tv",
+  "slug": "basta-iptv-appen-android-tv",
+  "volume": 30,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "bästa och billigaste iptv",
+  "slug": "basta-och-billigaste-iptv",
+  "volume": 30,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "iptv jämförelse",
+  "slug": "iptv-jamforelse",
+  "volume": 30,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "iptv prova på",
+  "slug": "iptv-prova-pa",
+  "volume": 30,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "iptv sverige app",
+  "slug": "iptv-sverige-app",
+  "volume": 30,
+  "intent": "Informational, Commercial"
+ },
+ {
+  "keyword": "iptv sverige premium",
+  "slug": "iptv-sverige-premium",
+  "volume": 30,
+  "intent": "Commercial"
+ },
+ {
+  "keyword": "iptv swish",
+  "slug": "iptv-swish",
+  "volume": 30,
+  "intent": "Informational, Commercial"
+ },
+ {
+  "keyword": "iptv app android",
+  "slug": "iptv-app-android",
+  "volume": 260,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv dreambox",
+  "slug": "iptv-dreambox",
+  "volume": 260,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app samsung",
+  "slug": "iptv-app-samsung",
+  "volume": 170,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv iphone app",
+  "slug": "iptv-iphone-app",
+  "volume": 170,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv box android",
+  "slug": "iptv-box-android",
+  "volume": 110,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv nyheter",
+  "slug": "iptv-nyheter",
+  "volume": 110,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "vad kostar iptv",
+  "slug": "vad-kostar-iptv",
+  "volume": 90,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "hur funkar iptv",
+  "slug": "hur-funkar-iptv",
+  "volume": 70,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv utan box",
+  "slug": "iptv-utan-box",
+  "volume": 70,
+  "intent": "Navigational"
+ },
+ {
+  "keyword": "iptv funkar inte",
+  "slug": "iptv-funkar-inte",
+  "volume": 50,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv problem",
+  "slug": "iptv-problem",
+  "volume": 50,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv box wifi",
+  "slug": "iptv-box-wifi",
+  "volume": 40,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv fungerar inte",
+  "slug": "iptv-fungerar-inte",
+  "volume": 40,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv installation",
+  "slug": "iptv-installation",
+  "volume": 40,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "vad är iptv box",
+  "slug": "vad-ar-iptv-box",
+  "volume": 40,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "android iptv",
+  "slug": "android-iptv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "app chromecast iptv",
+  "slug": "app-chromecast-iptv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "box tv iptv",
+  "slug": "box-tv-iptv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "ios iptv",
+  "slug": "ios-iptv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app android chromecast",
+  "slug": "iptv-app-android-chromecast",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app iphone chromecast",
+  "slug": "iptv-app-iphone-chromecast",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app nvidia shield",
+  "slug": "iptv-app-nvidia-shield",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app pc",
+  "slug": "iptv-app-pc",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app philips smart tv",
+  "slug": "iptv-app-philips-smart-tv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv app philips tv",
+  "slug": "iptv-app-philips-tv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv apple tv 4k",
+  "slug": "iptv-apple-tv-4k",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv box app",
+  "slug": "iptv-box-app",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv bredband",
+  "slug": "iptv-bredband",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv chromecast",
+  "slug": "iptv-chromecast",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv direkt i tv",
+  "slug": "iptv-direkt-i-tv",
+  "volume": 30,
+  "intent": "Informational, Navigational"
+ },
+ {
+  "keyword": "iptv guide",
+  "slug": "iptv-guide",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv i datorn",
+  "slug": "iptv-i-datorn",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv ip",
+  "slug": "iptv-ip",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv kanallista",
+  "slug": "iptv-kanallista",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv ladda ner",
+  "slug": "iptv-ladda-ner",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv lg webos",
+  "slug": "iptv-lg-webos",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv panasonic app",
+  "slug": "iptv-panasonic-app",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv problem router",
+  "slug": "iptv-problem-router",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv på flera tv",
+  "slug": "iptv-pa-flera-tv",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv på philips tv",
+  "slug": "iptv-pa-philips-tv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på vlc",
+  "slug": "iptv-pa-vlc",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv smart tv samsung",
+  "slug": "iptv-smart-tv-samsung",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv sony",
+  "slug": "iptv-sony",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv stick android",
+  "slug": "iptv-stick-android",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv sverige kanaler",
+  "slug": "iptv-sverige-kanaler",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv sverige pris",
+  "slug": "iptv-sverige-pris",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tablå",
+  "slug": "iptv-tabla",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv telefon",
+  "slug": "iptv-telefon",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv tips",
+  "slug": "iptv-tips",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "iptv tv guide",
+  "slug": "iptv-tv-guide",
+  "volume": 30,
+  "intent": "Informational"
+ },
+ {
+  "keyword": "köpa iptv kanaler",
+  "slug": "kopa-iptv-kanaler",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "lg iptv app",
+  "slug": "lg-iptv-app",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "lg smart iptv app",
+  "slug": "lg-smart-iptv-app",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield iptv box",
+  "slug": "nvidia-shield-iptv-box",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "philips smart tv iptv",
+  "slug": "philips-smart-tv-iptv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "router för iptv",
+  "slug": "router-for-iptv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung smart tv iptv app",
+  "slug": "samsung-smart-tv-iptv-app",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv chromecast",
+  "slug": "smart-iptv-chromecast",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv epg",
+  "slug": "smart-iptv-epg",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv philips",
+  "slug": "smart-iptv-philips",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "sony iptv app",
+  "slug": "sony-iptv-app",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "svensk iptv omdöme",
+  "slug": "svensk-iptv-omdome",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "webos iptv",
+  "slug": "webos-iptv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "wifi iptv",
+  "slug": "wifi-iptv",
+  "volume": 30,
+  "intent": ""
+ },
+ {
+  "keyword": "apple iptv",
+  "slug": "apple-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "apple iptv box",
+  "slug": "apple-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "apple tv 4k iptv app",
+  "slug": "apple-tv-4k-iptv-app",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "apple tv box iptv",
+  "slug": "apple-tv-box-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "bra router för iptv",
+  "slug": "bra-router-for-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen samsung",
+  "slug": "basta-iptv-appen-samsung",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv apple tv",
+  "slug": "basta-iptv-apple-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv leverantör sverige",
+  "slug": "basta-iptv-leverantor-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "enigma2 iptv epg",
+  "slug": "enigma2-iptv-epg",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "epg vlc iptv",
+  "slug": "epg-vlc-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "fel på iptv",
+  "slug": "fel-pa-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "fire tv stick iptv",
+  "slug": "fire-tv-stick-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "hastighet för iptv",
+  "slug": "hastighet-for-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "hur fungerar iptv box",
+  "slug": "hur-fungerar-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv abonnemang sverige",
+  "slug": "iptv-abonnemang-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android chromecast",
+  "slug": "iptv-android-chromecast",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android telefon",
+  "slug": "iptv-android-telefon",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android tv",
+  "slug": "iptv-android-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android tv box",
+  "slug": "iptv-android-tv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android tv box app",
+  "slug": "iptv-android-tv-box-app",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app apple",
+  "slug": "iptv-app-apple",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app dator",
+  "slug": "iptv-app-dator",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app ios",
+  "slug": "iptv-app-ios",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app ipad",
+  "slug": "iptv-app-ipad",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app mac",
+  "slug": "iptv-app-mac",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app philips",
+  "slug": "iptv-app-philips",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app tv",
+  "slug": "iptv-app-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app webos",
+  "slug": "iptv-app-webos",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv apple tv sverige",
+  "slug": "iptv-apple-tv-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box installation",
+  "slug": "iptv-box-installation",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box med abonnemang",
+  "slug": "iptv-box-med-abonnemang",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box pris",
+  "slug": "iptv-box-pris",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box sverige",
+  "slug": "iptv-box-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv chromecast ios",
+  "slug": "iptv-chromecast-ios",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv chromecast iphone",
+  "slug": "iptv-chromecast-iphone",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv direkt",
+  "slug": "iptv-direkt",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv enigma2",
+  "slug": "iptv-enigma2",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv epg sverige",
+  "slug": "iptv-epg-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv fire",
+  "slug": "iptv-fire",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv firestick",
+  "slug": "iptv-firestick",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv flera enheter",
+  "slug": "iptv-flera-enheter",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv i mobilen",
+  "slug": "iptv-i-mobilen",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv inställningar",
+  "slug": "iptv-installningar",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv internet",
+  "slug": "iptv-internet",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv ipad",
+  "slug": "iptv-ipad",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv iphone",
+  "slug": "iptv-iphone",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv kvalitet",
+  "slug": "iptv-kvalitet",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv leverantörer sverige",
+  "slug": "iptv-leverantorer-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv lg smart",
+  "slug": "iptv-lg-smart",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv live",
+  "slug": "iptv-live",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv mobil",
+  "slug": "iptv-mobil",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv mottagare",
+  "slug": "iptv-mottagare",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv nvidia shield",
+  "slug": "iptv-nvidia-shield",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv philips",
+  "slug": "iptv-philips",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv router inställningar",
+  "slug": "iptv-router-installningar",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv skandinavien",
+  "slug": "iptv-skandinavien",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv smart tv sony",
+  "slug": "iptv-smart-tv-sony",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv som fungerar",
+  "slug": "iptv-som-fungerar",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv som inte laggar",
+  "slug": "iptv-som-inte-laggar",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sony tv",
+  "slug": "iptv-sony-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv stick",
+  "slug": "iptv-stick",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv surfplatta",
+  "slug": "iptv-surfplatta",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige 4k",
+  "slug": "iptv-sverige-4k",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige billigt",
+  "slug": "iptv-sverige-billigt",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tizen",
+  "slug": "iptv-tizen",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tv mac",
+  "slug": "iptv-tv-mac",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tv stick",
+  "slug": "iptv-tv-stick",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv utan abonnemang",
+  "slug": "iptv-utan-abonnemang",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv utan smart tv",
+  "slug": "iptv-utan-smart-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vod",
+  "slug": "iptv-vod",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv xiaomi",
+  "slug": "iptv-xiaomi",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "jämför iptv",
+  "slug": "jamfor-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "köpa iptv box",
+  "slug": "kopa-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "köpa iptv sverige",
+  "slug": "kopa-iptv-sverige",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv",
+  "slug": "ladda-ner-smart-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "lg smart tv iptv",
+  "slug": "lg-smart-tv-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "lg tv app iptv",
+  "slug": "lg-tv-app-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "live iptv app",
+  "slug": "live-iptv-app",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv",
+  "slug": "mag-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia iptv",
+  "slug": "nvidia-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia iptv box",
+  "slug": "nvidia-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "panasonic iptv",
+  "slug": "panasonic-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "premium tv iptv",
+  "slug": "premium-tv-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung iptv box",
+  "slug": "samsung-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung tizen iptv",
+  "slug": "samsung-tizen-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "shield iptv",
+  "slug": "shield-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "shield iptv box",
+  "slug": "shield-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv android",
+  "slug": "smart-iptv-android",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app android",
+  "slug": "smart-iptv-app-android",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app samsung",
+  "slug": "smart-iptv-app-samsung",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app tv",
+  "slug": "smart-iptv-app-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv apple",
+  "slug": "smart-iptv-apple",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv apple tv",
+  "slug": "smart-iptv-apple-tv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv firestick",
+  "slug": "smart-iptv-firestick",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv kanaler",
+  "slug": "smart-iptv-kanaler",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv laggar",
+  "slug": "smart-iptv-laggar",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv mac",
+  "slug": "smart-iptv-mac",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv pc",
+  "slug": "smart-iptv-pc",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv pris",
+  "slug": "smart-iptv-pris",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv problem",
+  "slug": "smart-iptv-problem",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv samsung",
+  "slug": "smart-iptv-samsung",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv tcl",
+  "slug": "smart-iptv-tcl",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "stabil iptv",
+  "slug": "stabil-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "tv internet iptv",
+  "slug": "tv-internet-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "tv tablå iptv",
+  "slug": "tv-tabla-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "vad är epg iptv",
+  "slug": "vad-ar-epg-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "vlc android iptv",
+  "slug": "vlc-android-iptv",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "xiaomi iptv box",
+  "slug": "xiaomi-iptv-box",
+  "volume": 20,
+  "intent": ""
+ },
+ {
+  "keyword": "billig iptv box",
+  "slug": "billig-iptv-box",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "fire tv iptv",
+  "slug": "fire-tv-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "fire tv stick 4k iptv",
+  "slug": "fire-tv-stick-4k-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "ip smart iptv",
+  "slug": "ip-smart-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app firestick",
+  "slug": "iptv-app-firestick",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app lg webos",
+  "slug": "iptv-app-lg-webos",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box svenska kanaler",
+  "slug": "iptv-box-svenska-kanaler",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hastighet bredband",
+  "slug": "iptv-hastighet-bredband",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv internet hastighet",
+  "slug": "iptv-internet-hastighet",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv live tv",
+  "slug": "iptv-live-tv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tcl smart tv",
+  "slug": "iptv-tcl-smart-tv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tizen app",
+  "slug": "iptv-tizen-app",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv box",
+  "slug": "mag-iptv-box",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv box 4k",
+  "slug": "mag-iptv-box-4k",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield tv iptv",
+  "slug": "nvidia-shield-tv-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "philips smart iptv app",
+  "slug": "philips-smart-iptv-app",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart hd iptv",
+  "slug": "smart-hd-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv android tv",
+  "slug": "smart-iptv-android-tv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app apple tv",
+  "slug": "smart-iptv-app-apple-tv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv ios",
+  "slug": "smart-iptv-ios",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv iphone",
+  "slug": "smart-iptv-iphone",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv kanallista",
+  "slug": "smart-iptv-kanallista",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg sverige",
+  "slug": "smart-iptv-lg-sverige",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg webos",
+  "slug": "smart-iptv-lg-webos",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv sony",
+  "slug": "smart-iptv-sony",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv sverige app",
+  "slug": "smart-iptv-sverige-app",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv tizen",
+  "slug": "smart-iptv-tizen",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "uhd iptv",
+  "slug": "uhd-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "vad är smart iptv",
+  "slug": "vad-ar-smart-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "vlc iptv mac",
+  "slug": "vlc-iptv-mac",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "xiaomi router iptv",
+  "slug": "xiaomi-router-iptv",
+  "volume": 10,
+  "intent": ""
+ },
+ {
+  "keyword": "4k android iptv box",
+  "slug": "4k-android-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "abonnemang iptv i android tv",
+  "slug": "abonnemang-iptv-i-android-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "android box app iptv",
+  "slug": "android-box-app-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "app för iptv guide",
+  "slug": "app-for-iptv-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "app smart iptv fire stick",
+  "slug": "app-smart-iptv-fire-stick",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "apple tv vlc iptv",
+  "slug": "apple-tv-vlc-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "betala iptv",
+  "slug": "betala-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "betala iptv med swish",
+  "slug": "betala-iptv-med-swish",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billig iptv leverantör",
+  "slug": "billig-iptv-leverantor",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billig iptv leverantör är bäst",
+  "slug": "billig-iptv-leverantor-ar-bast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billig iptv med smart appen",
+  "slug": "billig-iptv-med-smart-appen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billig iptv med svenska kanaler",
+  "slug": "billig-iptv-med-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billiga iptv abonnemang",
+  "slug": "billiga-iptv-abonnemang",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billigaste iptv leverantören i sverige",
+  "slug": "billigaste-iptv-leverantoren-i-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billigaste och bästa iptv sverige",
+  "slug": "billigaste-och-basta-iptv-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "billigaste smart iptv",
+  "slug": "billigaste-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "box android tv 4k iptv",
+  "slug": "box-android-tv-4k-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "box tv 4k iptv",
+  "slug": "box-tv-4k-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bra bredband för iptv",
+  "slug": "bra-bredband-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bra smart iptv app",
+  "slug": "bra-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa abonnemanget iptv",
+  "slug": "basta-abonnemanget-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa android box för iptv",
+  "slug": "basta-android-box-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa boxen för iptv och apple",
+  "slug": "basta-boxen-for-iptv-och-apple",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa epg iptv",
+  "slug": "basta-epg-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv 4k",
+  "slug": "basta-iptv-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv app android box",
+  "slug": "basta-iptv-app-android-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv app för fire tv",
+  "slug": "basta-iptv-app-for-fire-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv app ipad",
+  "slug": "basta-iptv-app-ipad",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv app philips smart tv",
+  "slug": "basta-iptv-app-philips-smart-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen apple",
+  "slug": "basta-iptv-appen-apple",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen ios",
+  "slug": "basta-iptv-appen-ios",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen lg smarttv",
+  "slug": "basta-iptv-appen-lg-smarttv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen samsung tv",
+  "slug": "basta-iptv-appen-samsung-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv appen till nvidia shield",
+  "slug": "basta-iptv-appen-till-nvidia-shield",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv box 4k",
+  "slug": "basta-iptv-box-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv för enigma2",
+  "slug": "basta-iptv-for-enigma2",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv leverantör chromecast",
+  "slug": "basta-iptv-leverantor-chromecast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv mottagare",
+  "slug": "basta-iptv-mottagare",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv omdömen",
+  "slug": "basta-iptv-omdomen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv pc",
+  "slug": "basta-iptv-pc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv på smart tv philips tv",
+  "slug": "basta-iptv-pa-smart-tv-philips-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa iptv svenska kanaler",
+  "slug": "basta-iptv-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa mag boxen för iptv",
+  "slug": "basta-mag-boxen-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa mag iptv",
+  "slug": "basta-mag-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa smart iptv",
+  "slug": "basta-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa smart tv för iptv",
+  "slug": "basta-smart-tv-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bästa tv för iptv",
+  "slug": "basta-tv-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "bättre bild på iptv",
+  "slug": "battre-bild-pa-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "chromecast iptv app ios",
+  "slug": "chromecast-iptv-app-ios",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox enigma2 iptv",
+  "slug": "dreambox-enigma2-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox hd iptv",
+  "slug": "dreambox-hd-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox iptv app",
+  "slug": "dreambox-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox iptv epg",
+  "slug": "dreambox-iptv-epg",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox iptv problem",
+  "slug": "dreambox-iptv-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "dreambox iptv wifi",
+  "slug": "dreambox-iptv-wifi",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg guide iptv",
+  "slug": "epg-guide-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg iptv app",
+  "slug": "epg-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg iptv apple tv",
+  "slug": "epg-iptv-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg iptv för tv",
+  "slug": "epg-iptv-for-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg iptv svenska kanaler",
+  "slug": "epg-iptv-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "epg smart iptv app",
+  "slug": "epg-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "fel på iptv box",
+  "slug": "fel-pa-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "filmer iptv",
+  "slug": "filmer-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "fire stick 4k iptv",
+  "slug": "fire-stick-4k-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "fire tv stick smart iptv",
+  "slug": "fire-tv-stick-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "firestick iptv sverige",
+  "slug": "firestick-iptv-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "från datorn till iptv",
+  "slug": "fran-datorn-till-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "fungerar iptv bra",
+  "slug": "fungerar-iptv-bra",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "funkar android tv med iptv",
+  "slug": "funkar-android-tv-med-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "funkar iptv",
+  "slug": "funkar-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "funkar iptv med apple tv",
+  "slug": "funkar-iptv-med-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "funkar iptv vod på nvidia shield tv",
+  "slug": "funkar-iptv-vod-pa-nvidia-shield-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur bra funkar iptv",
+  "slug": "hur-bra-funkar-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur bra internet för iptv",
+  "slug": "hur-bra-internet-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur bra kvalitet iptv",
+  "slug": "hur-bra-kvalitet-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur bra är iptv",
+  "slug": "hur-bra-ar-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur bra är iptv svenska kanaler",
+  "slug": "hur-bra-ar-iptv-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur fungerar smart iptv",
+  "slug": "hur-fungerar-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur funkar en iptv box",
+  "slug": "hur-funkar-en-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur funkar iptv android",
+  "slug": "hur-funkar-iptv-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur funkar iptv med apple tv",
+  "slug": "hur-funkar-iptv-med-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur installerar jag iptv samsung tv",
+  "slug": "hur-installerar-jag-iptv-samsung-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur ladda ner smart iptv app",
+  "slug": "hur-ladda-ner-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur ställa in kanallista iptv",
+  "slug": "hur-stalla-in-kanallista-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur ställa in smart iptv",
+  "slug": "hur-stalla-in-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "hur ställa in smart iptv på lg",
+  "slug": "hur-stalla-in-smart-iptv-pa-lg",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv box",
+  "slug": "installera-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på android 4k box",
+  "slug": "installera-iptv-pa-android-4k-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på android box",
+  "slug": "installera-iptv-pa-android-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på apple tv",
+  "slug": "installera-iptv-pa-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på dreambox",
+  "slug": "installera-iptv-pa-dreambox",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på iphone",
+  "slug": "installera-iptv-pa-iphone",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera iptv på lg",
+  "slug": "installera-iptv-pa-lg",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera smart iptv på android tv",
+  "slug": "installera-smart-iptv-pa-android-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera smart iptv på philips tv",
+  "slug": "installera-smart-iptv-pa-philips-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "installera smart iptv på samsung tv",
+  "slug": "installera-smart-iptv-pa-samsung-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "inställningar appen smart iptv",
+  "slug": "installningar-appen-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "inställningar för iptv i dreambox",
+  "slug": "installningar-for-iptv-i-dreambox",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "inställningar iptv box",
+  "slug": "installningar-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "inställningar smart iptv",
+  "slug": "installningar-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "internet iptv box",
+  "slug": "internet-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv 4k premium",
+  "slug": "iptv-4k-premium",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv abonnemang smart tv",
+  "slug": "iptv-abonnemang-smart-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv abonnemang sverige omdömen",
+  "slug": "iptv-abonnemang-sverige-omdomen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android app sverige",
+  "slug": "iptv-android-app-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android bästa leverantör",
+  "slug": "iptv-android-basta-leverantor",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv android sony tv",
+  "slug": "iptv-android-sony-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app enigma2",
+  "slug": "iptv-app-enigma2",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app med kanallista",
+  "slug": "iptv-app-med-kanallista",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv app svenska kanaler",
+  "slug": "iptv-app-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv appar för smarttv",
+  "slug": "iptv-appar-for-smarttv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv appen android surfplatta",
+  "slug": "iptv-appen-android-surfplatta",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv appen surfplatta",
+  "slug": "iptv-appen-surfplatta",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bild på 4k tv",
+  "slug": "iptv-bild-pa-4k-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv billigt köpa",
+  "slug": "iptv-billigt-kopa",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box 4k uhd",
+  "slug": "iptv-box-4k-uhd",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box bästa bild",
+  "slug": "iptv-box-basta-bild",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box funkar",
+  "slug": "iptv-box-funkar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box för flera kanaler",
+  "slug": "iptv-box-for-flera-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box för ios",
+  "slug": "iptv-box-for-ios",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box med kanaler",
+  "slug": "iptv-box-med-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box tips",
+  "slug": "iptv-box-tips",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box tv leverantör",
+  "slug": "iptv-box-tv-leverantor",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box tv premium",
+  "slug": "iptv-box-tv-premium",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv box utan abonnemang",
+  "slug": "iptv-box-utan-abonnemang",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv buffrar lg tv",
+  "slug": "iptv-buffrar-lg-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv buffring",
+  "slug": "iptv-buffring",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bäst kanaler",
+  "slug": "iptv-bast-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bäst kvalitet",
+  "slug": "iptv-bast-kvalitet",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bäst kvalitet till bra pris",
+  "slug": "iptv-bast-kvalitet-till-bra-pris",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bäst pris",
+  "slug": "iptv-bast-pris",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bästa appen lg",
+  "slug": "iptv-basta-appen-lg",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv bästa för sport",
+  "slug": "iptv-basta-for-sport",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv chromecast apple",
+  "slug": "iptv-chromecast-apple",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv chromecast ipad",
+  "slug": "iptv-chromecast-ipad",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv chromecast pc",
+  "slug": "iptv-chromecast-pc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv dreambox guide",
+  "slug": "iptv-dreambox-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv en månad",
+  "slug": "iptv-en-manad",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv enigma2 fryser",
+  "slug": "iptv-enigma2-fryser",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv enigma2 svensk",
+  "slug": "iptv-enigma2-svensk",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv epg mag",
+  "slug": "iptv-epg-mag",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv epg problem",
+  "slug": "iptv-epg-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv familj",
+  "slug": "iptv-familj",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv film buffrar",
+  "slug": "iptv-film-buffrar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv film laggar",
+  "slug": "iptv-film-laggar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv film sport",
+  "slug": "iptv-film-sport",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv fryser",
+  "slug": "iptv-fryser",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv från box till dator",
+  "slug": "iptv-fran-box-till-dator",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv från datorn till tv",
+  "slug": "iptv-fran-datorn-till-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv guide sverige",
+  "slug": "iptv-guide-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd app",
+  "slug": "iptv-hd-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd box",
+  "slug": "iptv-hd-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd kanaler",
+  "slug": "iptv-hd-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd kvalitet",
+  "slug": "iptv-hd-kvalitet",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd live",
+  "slug": "iptv-hd-live",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hd premium",
+  "slug": "iptv-hd-premium",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hjälp",
+  "slug": "iptv-hjalp",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv hur bra med apple tv",
+  "slug": "iptv-hur-bra-med-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv installation guide",
+  "slug": "iptv-installation-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv ipad vlc",
+  "slug": "iptv-ipad-vlc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv kanal buffrar",
+  "slug": "iptv-kanal-buffrar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv kanaler fryser",
+  "slug": "iptv-kanaler-fryser",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv kanaler funkar inte",
+  "slug": "iptv-kanaler-funkar-inte",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv kanaler laggar",
+  "slug": "iptv-kanaler-laggar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv laggar fryser",
+  "slug": "iptv-laggar-fryser",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv laggar lg",
+  "slug": "iptv-laggar-lg",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv leverantör telefon",
+  "slug": "iptv-leverantor-telefon",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv lg smart tv webos",
+  "slug": "iptv-lg-smart-tv-webos",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv ljud",
+  "slug": "iptv-ljud",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv mag 4k",
+  "slug": "iptv-mag-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv nordiska",
+  "slug": "iptv-nordiska",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv nordiska kanaler",
+  "slug": "iptv-nordiska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv nordiska kanaler med 4k",
+  "slug": "iptv-nordiska-kanaler-med-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv panasonic smart tv",
+  "slug": "iptv-panasonic-smart-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv panasonic tv app",
+  "slug": "iptv-panasonic-tv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv pc app svensk",
+  "slug": "iptv-pc-app-svensk",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv pc vlc",
+  "slug": "iptv-pc-vlc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv philips android",
+  "slug": "iptv-philips-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv philips android tv",
+  "slug": "iptv-philips-android-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv problem apple tv",
+  "slug": "iptv-problem-apple-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv problem med kanaler",
+  "slug": "iptv-problem-med-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv prova chromecast android",
+  "slug": "iptv-prova-chromecast-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på datorn mac",
+  "slug": "iptv-pa-datorn-mac",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på lg smarttv",
+  "slug": "iptv-pa-lg-smarttv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på mobilen firestick",
+  "slug": "iptv-pa-mobilen-firestick",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på panasonic tv",
+  "slug": "iptv-pa-panasonic-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på pc datorn",
+  "slug": "iptv-pa-pc-datorn",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv på smarttv",
+  "slug": "iptv-pa-smarttv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv serier",
+  "slug": "iptv-serier",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv smart tv eller box",
+  "slug": "iptv-smart-tv-eller-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv smart tv sverige",
+  "slug": "iptv-smart-tv-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sony tv app",
+  "slug": "iptv-sony-tv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sport hd",
+  "slug": "iptv-sport-hd",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv svenska filmer",
+  "slug": "iptv-svenska-filmer",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv svenska hd kanaler",
+  "slug": "iptv-svenska-hd-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv svenska kanaler omdöme",
+  "slug": "iptv-svenska-kanaler-omdome",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv svenska kanaler smart tv",
+  "slug": "iptv-svenska-kanaler-smart-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv svenska kanaler tips",
+  "slug": "iptv-svenska-kanaler-tips",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige chromecast",
+  "slug": "iptv-sverige-chromecast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige jämförelse",
+  "slug": "iptv-sverige-jamforelse",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige nvidia shield",
+  "slug": "iptv-sverige-nvidia-shield",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige premium kanaler",
+  "slug": "iptv-sverige-premium-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige premium pris",
+  "slug": "iptv-sverige-premium-pris",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv sverige problem",
+  "slug": "iptv-sverige-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv tv sverige",
+  "slug": "iptv-tv-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv uhd box",
+  "slug": "iptv-uhd-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv utan wifi",
+  "slug": "iptv-utan-wifi",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vad är bäst",
+  "slug": "iptv-vad-ar-bast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vlc chromecast",
+  "slug": "iptv-vlc-chromecast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vlc guide",
+  "slug": "iptv-vlc-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vlc problem",
+  "slug": "iptv-vlc-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv vlc smart tv",
+  "slug": "iptv-vlc-smart-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "iptv wifi router",
+  "slug": "iptv-wifi-router",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "jämför iptv leverantör",
+  "slug": "jamfor-iptv-leverantor",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "kostar smart iptv appen",
+  "slug": "kostar-smart-iptv-appen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "köpa android iptv box i sverige",
+  "slug": "kopa-android-iptv-box-i-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "köpa en iptv app",
+  "slug": "kopa-en-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "köpa iptv abonnemang",
+  "slug": "kopa-iptv-abonnemang",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner appar samsung smart iptv",
+  "slug": "ladda-ner-appar-samsung-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv hd",
+  "slug": "ladda-ner-smart-iptv-hd",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv pc",
+  "slug": "ladda-ner-smart-iptv-pc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv philips",
+  "slug": "ladda-ner-smart-iptv-philips",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv samsung",
+  "slug": "ladda-ner-smart-iptv-samsung",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv sony",
+  "slug": "ladda-ner-smart-iptv-sony",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv till lg tv",
+  "slug": "ladda-ner-smart-iptv-till-lg-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda ner smart iptv till tv samsung",
+  "slug": "ladda-ner-smart-iptv-till-tv-samsung",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ladda smart iptv på firestick",
+  "slug": "ladda-smart-iptv-pa-firestick",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "lg smart tv app iptv",
+  "slug": "lg-smart-tv-app-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "live iptv box",
+  "slug": "live-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "live iptv kanaler",
+  "slug": "live-iptv-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "live tv box hd iptv",
+  "slug": "live-tv-box-hd-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "live tv box iptv",
+  "slug": "live-tv-box-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mac iptv 4k",
+  "slug": "mac-iptv-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mac iptv box",
+  "slug": "mac-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mac iptv omdöme",
+  "slug": "mac-iptv-omdome",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv android",
+  "slug": "mag-iptv-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv installation",
+  "slug": "mag-iptv-installation",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv problem",
+  "slug": "mag-iptv-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv samsung",
+  "slug": "mag-iptv-samsung",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag iptv sverige",
+  "slug": "mag-iptv-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "mag smart iptv",
+  "slug": "mag-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield 4k iptv",
+  "slug": "nvidia-shield-4k-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield eller apple tv iptv",
+  "slug": "nvidia-shield-eller-apple-tv-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield smart iptv",
+  "slug": "nvidia-shield-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield smart iptv app",
+  "slug": "nvidia-shield-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield tv 4k iptv",
+  "slug": "nvidia-shield-tv-4k-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield tv 4k iptv installation guide",
+  "slug": "nvidia-shield-tv-4k-iptv-installation-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "nvidia shield tv smart iptv",
+  "slug": "nvidia-shield-tv-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "omdöme iptv leverantörer",
+  "slug": "omdome-iptv-leverantorer",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "panasonic smart iptv",
+  "slug": "panasonic-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "panasonic smart iptv app",
+  "slug": "panasonic-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "premium iptv app",
+  "slug": "premium-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "problem iptv samsung",
+  "slug": "problem-iptv-samsung",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "problem med chromecast iptv",
+  "slug": "problem-med-chromecast-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "problem med svenska kanaler iptv",
+  "slug": "problem-med-svenska-kanaler-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "prova smart iptv",
+  "slug": "prova-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung iptv android",
+  "slug": "samsung-iptv-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung smart iptv wifi problem",
+  "slug": "samsung-smart-iptv-wifi-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "samsung tv iptv problem",
+  "slug": "samsung-tv-iptv-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "shield tv iptv",
+  "slug": "shield-tv-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart box android iptv",
+  "slug": "smart-box-android-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv abonnemang",
+  "slug": "smart-iptv-abonnemang",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv android chromecast",
+  "slug": "smart-iptv-android-chromecast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app buffrar",
+  "slug": "smart-iptv-app-buffrar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app chromecast",
+  "slug": "smart-iptv-app-chromecast",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app fungerar inte",
+  "slug": "smart-iptv-app-fungerar-inte",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app ladda ner",
+  "slug": "smart-iptv-app-ladda-ner",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app mac",
+  "slug": "smart-iptv-app-mac",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app pc",
+  "slug": "smart-iptv-app-pc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app samsung tizen",
+  "slug": "smart-iptv-app-samsung-tizen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app sony",
+  "slug": "smart-iptv-app-sony",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app sony tv",
+  "slug": "smart-iptv-app-sony-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv app tcl",
+  "slug": "smart-iptv-app-tcl",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv apple app",
+  "slug": "smart-iptv-apple-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv betalning",
+  "slug": "smart-iptv-betalning",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv buffrar",
+  "slug": "smart-iptv-buffrar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv dator",
+  "slug": "smart-iptv-dator",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv in firestick",
+  "slug": "smart-iptv-in-firestick",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv köp",
+  "slug": "smart-iptv-kop",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv köpa app",
+  "slug": "smart-iptv-kopa-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv laggar på lg tv",
+  "slug": "smart-iptv-laggar-pa-lg-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv leverantör",
+  "slug": "smart-iptv-leverantor",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg 4k",
+  "slug": "smart-iptv-lg-4k",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg guide",
+  "slug": "smart-iptv-lg-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg problem",
+  "slug": "smart-iptv-lg-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv lg tv svenska",
+  "slug": "smart-iptv-lg-tv-svenska",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv omdöme",
+  "slug": "smart-iptv-omdome",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv philips android",
+  "slug": "smart-iptv-philips-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv philips android tv",
+  "slug": "smart-iptv-philips-android-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv problem samsung",
+  "slug": "smart-iptv-problem-samsung",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv på samsung tizen",
+  "slug": "smart-iptv-pa-samsung-tizen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv samsung betala",
+  "slug": "smart-iptv-samsung-betala",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv samsung funkar inte",
+  "slug": "smart-iptv-samsung-funkar-inte",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv samsung sverige",
+  "slug": "smart-iptv-samsung-sverige",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv sony android tv",
+  "slug": "smart-iptv-sony-android-tv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv svenska kanaler",
+  "slug": "smart-iptv-svenska-kanaler",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv sverige premium",
+  "slug": "smart-iptv-sverige-premium",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv tv guide",
+  "slug": "smart-iptv-tv-guide",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv vlc",
+  "slug": "smart-iptv-vlc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv vod problem",
+  "slug": "smart-iptv-vod-problem",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart iptv wifi",
+  "slug": "smart-iptv-wifi",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "smart tv iptv för pc",
+  "slug": "smart-tv-iptv-for-pc",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "sony iptv android",
+  "slug": "sony-iptv-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "sony iptv box",
+  "slug": "sony-iptv-box",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ställa in iptv",
+  "slug": "stalla-in-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "ställa in router för iptv",
+  "slug": "stalla-in-router-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "svensk kanallista iptv",
+  "slug": "svensk-kanallista-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "svenska tv kanaler iptv",
+  "slug": "svenska-tv-kanaler-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "tcl smart tv iptv app",
+  "slug": "tcl-smart-tv-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "testa iptv android",
+  "slug": "testa-iptv-android",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "testa iptv på datorn",
+  "slug": "testa-iptv-pa-datorn",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "testa smart iptv",
+  "slug": "testa-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "tips på bra iptv appar",
+  "slug": "tips-pa-bra-iptv-appar",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "tizen smart tv iptv app",
+  "slug": "tizen-smart-tv-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "tv kanaler iptv",
+  "slug": "tv-kanaler-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "tv med iptv mottagare",
+  "slug": "tv-med-iptv-mottagare",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vad av wifi för iptv",
+  "slug": "vad-av-wifi-for-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vad kostar iptv appen",
+  "slug": "vad-kostar-iptv-appen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vad kostar smart iptv",
+  "slug": "vad-kostar-smart-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vad är mag iptv",
+  "slug": "vad-ar-mag-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vilka boxar fungerar med iptv",
+  "slug": "vilka-boxar-fungerar-med-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vilka tv kan ladda ner smart iptv appen",
+  "slug": "vilka-tv-kan-ladda-ner-smart-iptv-appen",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vilken iptv funkar bäst i surfplatta",
+  "slug": "vilken-iptv-funkar-bast-i-surfplatta",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vilken leverantör funkar iptv bäst med",
+  "slug": "vilken-leverantor-funkar-iptv-bast-med",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vlc ios iptv",
+  "slug": "vlc-ios-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vlc iptv hd",
+  "slug": "vlc-iptv-hd",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vlc iptv svensk",
+  "slug": "vlc-iptv-svensk",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vod fungerar inte med smart iptv app",
+  "slug": "vod-fungerar-inte-med-smart-iptv-app",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vod iptv film",
+  "slug": "vod-iptv-film",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vod iptv film tips",
+  "slug": "vod-iptv-film-tips",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "vod sverige iptv",
+  "slug": "vod-sverige-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "webos smart tv iptv",
+  "slug": "webos-smart-tv-iptv",
+  "volume": 0,
+  "intent": ""
+ },
+ {
+  "keyword": "xiaomi iptv sverige",
+  "slug": "xiaomi-iptv-sverige",
+  "volume": 0,
+  "intent": ""
+ }
+]

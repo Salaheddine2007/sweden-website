@@ -1,0 +1,140 @@
+<!--{"slug": "iptv-epg-tv-guide", "crumb": "IPTV-tv-guide (EPG)", "keyword": "iptv epg",
+"date": "2026-10-25", "updated": "2026-10-25",
+"h1": "IPTV-tv-guide (EPG): så får du tablån att visa rätt",
+"title": "IPTV EPG: få tv-guiden att visa rätt tider och program",
+"desc": "Vad är EPG i IPTV och varför visar tv-guiden fel tid, fel program eller ingenting alls? Så fungerar tablån, och så löser du de vanligaste felen steg för steg."}-->
+<p>EPG står för Electronic Program Guide och är tv-guiden i din IPTV-app: tablån som visar vad som går nu och senare på varje kanal. Den laddas separat från kanalerna, och det är därför den ibland är tom, ligger en timme fel eller visar fel program fast kanalen fungerar. Nästan alla fel beror på tre saker: tidszonen, att guiden inte hunnit laddas, eller att appen behöver uppdatera den.</p>
+<p>Tv-guiden är det som får IPTV att kännas som vanlig tv. Utan den blir det en lång lista med kanalnamn. Den här guiden förklarar hur EPG fungerar, hur du får den att visa rätt, och vad du gör när den inte gör det.</p>
+
+<h2>Hur fungerar EPG i IPTV?</h2>
+<p>När du lägger in ditt abonnemang i en IPTV-app hämtar appen två saker. Den första är kanallistan, med adresser till varje kanals ström. Den andra är tv-guiden, en stor fil med programinformation för de närmaste dagarna. Appen kopplar ihop dem med hjälp av ett id för varje kanal.</p>
+<p>Det betyder tre praktiska saker. Tv-guiden kan saknas även om kanalerna fungerar, eftersom de hämtas separat. Den kan vara inaktuell om appen inte har hämtat en ny version. Och den kan hamna på fel kanal om id:t inte matchar, vilket är ovanligt men händer.</p>
+<p>Programinformationen räknas i universell tid, UTC. Appen räknar om tiderna till din tidszon med hjälp av enhetens klocka. Det är därför fel tidszon på enheten flyttar hela tablån.</p>
+
+<h2>Vanliga fel i tv-guiden och hur du löser dem</h2>
+
+<h3>Tablån ligger en eller två timmar fel</h3>
+<p>Det här är det absolut vanligaste felet vi ser. Det beror nästan alltid på att enhetens tidszon är fel, ofta efter en fabriksåterställning eller när en box har köpts utomlands.</p>
+<ol>
+  <li>Öppna enhetens inställningar, inte appens.</li>
+  <li>Leta upp Datum och tid, eller Allmänt, Tid.</li>
+  <li>Välj tidszonen Stockholm, eller Centraleuropeisk tid (GMT+1).</li>
+  <li>Slå på automatisk tid om det finns, så att sommartid hanteras rätt.</li>
+  <li>Starta om IPTV-appen.</li>
+</ol>
+<p>Vissa appar har också en egen inställning för EPG-förskjutning, ofta kallad EPG offset eller tidsjustering. Använd den bara om enhetens tidszon redan är rätt och tablån ändå ligger fel. Annars blir det fel igen vid nästa byte till eller från sommartid.</p>
+
+<h3>Tv-guiden är tom</h3>
+<p>Vänta först. Efter första inloggningen kan det ta några minuter innan tablån är laddad, särskilt på en Smart TV med långsam processor. Är den fortfarande tom efter fem minuter:</p>
+<ul>
+  <li>Leta efter en knapp som heter Uppdatera EPG, Ladda om guide eller liknande i appens inställningar.</li>
+  <li>Kontrollera att appen har tillräckligt med lagringsutrymme. Tv-guiden kan vara flera megabyte, och en full tv kan inte spara den.</li>
+  <li>Starta om enheten helt, inte bara appen. På en tv betyder det att dra ur sladden i tio sekunder.</li>
+</ul>
+
+<h3>Tablån visar fel program på en kanal</h3>
+<p>Det betyder att kanalens id inte matchar rätt programinformation. Det är sällsynt, men det händer när en kanal byter namn eller nummer. Skriv till oss vilken kanal det gäller så kontrollerar vi. Det är inget du kan lösa själv i appen.</p>
+
+<h3>Tv-guiden visar bara dagens program</h3>
+<p>Många appar sparar bara ett par dagar framåt för att spara utrymme. Det är en inställning i appen, ofta kallad antal dagar för EPG. Ökar du den tar uppdateringen längre tid.</p>
+
+<h3>Tv-guiden är gammal</h3>
+<p>Om tablån visar förra veckans program har appen slutat uppdatera den. Leta efter en inställning för automatisk uppdatering och sätt den till en gång per dag. Uppdatera manuellt en gång för att komma ikapp.</p>
+
+<h2>EPG i olika appar och på olika enheter</h2>
+<p>Hur tv-guiden ser ut och fungerar skiljer sig mycket mellan appar. Det är en av de största skillnaderna mellan en bra och en medelmåttig IPTV-app.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th scope="col">Enhet</th><th scope="col">Hur tv-guiden brukar fungera</th><th scope="col">Typiskt problem</th></tr></thead>
+    <tbody>
+      <tr><td>Android TV / Google TV</td><td>Rutnät som på en vanlig tv-box, snabb att bläddra i</td><td>Fel tidszon efter fabriksåterställning</td></tr>
+      <tr><td>Fire TV Stick</td><td>Bra i de flesta appar</td><td>Långsam första laddning på äldre modeller</td></tr>
+      <tr><td>Samsung och LG</td><td>Enklare, ibland bara en lista</td><td>Tar lång tid att ladda, lite lagringsutrymme</td></tr>
+      <tr><td>Apple TV</td><td>Bra i de flesta appar, synkar ibland via iCloud</td><td>Tidszon på fel land i Apple-ID</td></tr>
+      <tr><td>Dator med VLC</td><td>Ingen riktig tv-guide</td><td>VLC är en spelare, inte en IPTV-app</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Vill du ha en riktigt bra tv-guide är Android TV-baserade boxar och appar bäst. Mer om valet av app i guiden om <a href="/blogg/basta-iptv-appen/">bästa IPTV-appen</a>, och om boxar i guiden om <a href="/iptv-box/">vilken IPTV-box du ska välja</a>.</p>
+
+<h2>Funktioner i tv-guiden som är värda att använda</h2>
+<h3>Favoriter</h3>
+<p>Lägg dina vanligaste kanaler i en favoritlista. Då visar tv-guiden bara dem, och den laddar och bläddrar mycket snabbare. Det är den största förbättringen i vardagen för de flesta.</p>
+<h3>Påminnelser</h3>
+<p>Många appar låter dig markera ett program i tablån och få en påminnelse när det börjar. Praktiskt för en match eller en film du inte vill missa.</p>
+<h3>Catch-up och tidsförskjutning</h3>
+<p>Vissa kanaler har stöd för att titta på program som redan har sänts, direkt från tv-guiden. I tablån brukar de vara märkta med en klocka eller en pil bakåt. Om det finns beror på kanalen och appen.</p>
+<h3>Sök</h3>
+<p>Sökfunktionen i tv-guiden letar i programinformationen, inte bara bland kanalnamn. Sök på ett lag eller en serie för att se när den sänds härnäst.</p>
+
+<h2>Tidszoner och sommartid i Norden</h2>
+<p>Sverige, Norge och Danmark ligger i samma tidszon, centraleuropeisk tid. Finland ligger en timme före. Det har betydelse om du tittar på kanaler från grannländerna: tablån för en finsk kanal visas ändå i din lokala tid, så länge enhetens tidszon är Stockholm. Du behöver alltså inte räkna om något själv.</p>
+<p>Problemet uppstår om enheten är inställd på fel tidszon, eller om automatisk sommartid är avstängd. Två gånger om året, sista söndagen i mars och sista söndagen i oktober, flyttas klockan. Enheter med manuell tid hänger inte med, och hela tablån hamnar en timme fel tills någon ändrar det.</p>
+<p>Ett vanligt exempel är en box som har köpts från en butik utanför Europa. Den kan vara inställd på en tidszon i Asien från fabriken. Kanalerna fungerar perfekt, men tv-guiden visar program som gick för flera timmar sedan. Rätt tidszon på enheten löser det på en minut.</p>
+
+<h2>När en kanal byter namn eller plats</h2>
+<p>Tv-kanaler byter ibland namn, slås ihop eller flyttar till ett annat nummer. När det händer kan det ta ett par dagar innan tv-guiden har följt med. Under tiden kan kanalen sakna tablå, eller visa programmen för den gamla kanalen.</p>
+<p>Om du märker att en kanal visar fel program, skriv till oss och tala om vilken. Vi rättar kopplingen så att den blir rätt för alla. Under tiden fungerar själva kanalen som vanligt, det är bara informationen om programmen som är fel.</p>
+<p>Har du lagt till kanalen i dina favoriter kan den också hamna på en annan plats i listan efter en ändring. Det är bara att flytta tillbaka den.</p>
+
+<h2>Planera kvällen med tv-guiden</h2>
+<p>En bra tv-guide är inte bara till för att se vad som går just nu. Den är också ett sätt att planera. Några sätt att använda den som är värda att prova:</p>
+<ul>
+  <li><strong>Sök på ett lag</strong> för att se alla kommande matcher på alla kanaler, i stället för att bläddra kanal för kanal.</li>
+  <li><strong>Sätt påminnelser</strong> för program som sänds sent eller tidigt, så att appen säger till när det börjar.</li>
+  <li><strong>Gör en favoritlista per person</strong> om appen har stöd för det. Barnkanaler i en lista, sport i en annan.</li>
+  <li><strong>Använd catch-up</strong> om kanalen har det, för att se början av ett program du kom in mitt i.</li>
+</ul>
+<p>Ju mer du använder favoriter, desto snabbare blir också tv-guiden. Den behöver då bara visa de kanaler du faktiskt tittar på. Vill du kontrollera exakt när sommartiden börjar och slutar i år, visar <a href="https://www.timeanddate.com/time/zone/sweden/stockholm" rel="noopener" target="_blank">timeanddate.com</a> datumen för Stockholm. För tv-guidens skull räcker det att slå på automatisk tid.</p>
+
+<h2>Snabbguide: få tv-guiden att fungera på fem minuter</h2>
+<ol>
+  <li>Ställ in tidszonen Stockholm på enheten.</li>
+  <li>Slå på automatisk tid.</li>
+  <li>Starta om appen och vänta tills tablån har laddats.</li>
+  <li>Lägg till dina favoritkanaler.</li>
+  <li>Sätt automatisk EPG-uppdatering till en gång per dag.</li>
+</ol>
+<p>Fungerar det fortfarande inte, ta en skärmbild av tv-guiden och skicka till oss. Hela installationen, enhet för enhet, finns i guiden <a href="/installera-iptv/">installera IPTV steg för steg</a>.</p>
+
+<h2>Tv-guiden på olika enheter i samma hem</h2>
+<p>Har du flera skärmar hemma, till exempel en Android-box i vardagsrummet och en Samsung i sovrummet, kommer tv-guiden att se olika ut på dem. Det beror på att de använder olika appar, inte på abonnemanget. Informationen är densamma, det är presentationen som skiljer.</p>
+<p>Om du vill ha samma upplevelse på alla skärmar, välj en app som finns på alla dina enheter. Vissa appar synkar dessutom favoriter mellan enheterna, så att du bara behöver ordna dem en gång. Är det inte möjligt, för att någon tv saknar appen, kan en Fire TV Stick i den tv:n ge samma app överallt.</p>
+<p>Tänk också på att tv-guiden laddas separat på varje enhet. Har du ändrat tidszonen på en enhet behöver du göra det på de andra också.</p>
+
+<h2>Vad tv-guiden inte kan göra</h2>
+<p>Tv-guiden visar vad kanalerna har meddelat att de ska sända. Om ett program blir försenat, till exempel för att en match går till förlängning, uppdateras inte alltid tablån i realtid. Programmet efter kan då börja senare än tablån säger. Det är samma sak på vanlig tv, men märks tydligare när man använder påminnelser.</p>
+<p>Tv-guiden kan inte heller visa program för kanaler som inte skickar ut programinformation. Det gäller en del mindre kanaler, och då visas bara kanalnamnet. Det är inget fel i appen.</p>
+<p>Slutligen: catch-up, att kunna se program i efterhand, beror helt på kanalen. Finns det inte för en kanal går det inte att slå på i appen.</p>
+
+<h2>Varför tv-guiden spelar större roll än man tror</h2>
+<p>Det låter som en detalj, men tv-guiden avgör ofta om IPTV känns som vanlig tv eller som något krångligt. Med en tablå som visar rätt, och favoriter överst, märks det knappt att tv:n kommer via internet. Utan den blir det en lista att scrolla i.</p>
+<p>Därför ingår tv-guide för kanalerna i alla våra paket. Se vad som ingår på sidan om <a href="/iptv-abonnemang/">IPTV-abonnemang</a>, eller läs mer om <a href="/">bästa IPTV</a> för svenska hushåll på startsidan.</p>
+
+<div class="post-cta"><strong>Visar tv-guiden fel?</strong>Skicka en skärmbild och berätta vilken enhet du har, så hjälper vi dig. <a data-track="buy_click" href="{{WA:Hej! Min tv-guide visar fel. Jag har en }}" rel="noopener" target="_blank">Få hjälp på WhatsApp</a></div>
+
+<h2>Vanliga frågor om EPG</h2>
+<h3>Vad betyder EPG?</h3>
+<p>Electronic Program Guide, alltså elektronisk programguide eller tv-guide. Det är tablån i din IPTV-app.</p>
+<h3>Varför ligger tv-guiden fel efter sommartid?</h3>
+<p>Antingen är automatisk tid avstängd på enheten, eller så har du ställt in en manuell förskjutning i appen. Slå på automatisk tid och nollställ förskjutningen.</p>
+<h3>Ingår tv-guiden i abonnemanget?</h3>
+<p>Ja, tv-guide för kanalerna ingår i alla våra paket. Hur den visas beror på vilken app du använder.</p>
+<h3>Kan jag använda en egen EPG-källa?</h3>
+<p>Vissa appar låter dig lägga in en egen adress för tv-guiden. Det behövs sällan, och fel adress kan göra att tablån hamnar på fel kanaler. Fråga oss först.</p>
+<h3>Hur många dagar framåt visar tv-guiden?</h3>
+<p>Oftast mellan tre och sju dagar, beroende på appen och hur den är inställd. Fler dagar ger längre laddningstid och tar mer lagringsutrymme. För de flesta räcker tre dagar gott.</p>
+<h3>Kan jag se tv-guiden utan att titta på tv?</h3>
+<p>I många appar, ja. Öppna tablån utan att starta en kanal för att planera kvällen eller sätta påminnelser. På mobilen är det ett smidigt sätt att se vad som går medan tv:n är avstängd.</p>
+<h3>Varför visar vissa kanaler "ingen information"?</h3>
+<p>Kanalen skickar inte ut någon programinformation, eller så har den bytt namn och tablån har inte hunnit följa med. Kanalen fungerar ändå. Hör av dig om det gäller en stor kanal som borde ha tablå, så kontrollerar vi kopplingen åt dig.</p>
+<h3>Måste jag uppdatera tv-guiden själv?</h3>
+<p>Nej, om automatisk uppdatering är på. Sätt den till en gång per dag. Manuell uppdatering behövs bara om något har gått fel.</p>
+<h3>Varför går tv-guiden så långsamt på min tv?</h3>
+<p>Tv-apparaters processorer är ofta svagare än en box. Använd favoritlistor, minska antalet dagar som sparas, eller överväg en Fire TV Stick eller Android TV-box.</p>
+
+<div class="related"><h2>Läs vidare</h2><ul>
+  <li><a href="/blogg/iptv-apple-tv/">IPTV på Apple TV: installation och inställningar</a></li>
+  <li><a href="/blogg/iptv-laggar/">När IPTV laggar eller buffrar</a></li>
+  <li><a href="/iptv-smart-tv/">IPTV på Samsung och LG Smart TV</a></li>
+</ul></div>
