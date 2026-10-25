@@ -31,6 +31,7 @@
 
 ## Guider
 
+- [Bästa IPTV app Android – välj rätt app 2026](https://bastaiptvhd.se/blogg/basta-iptv-app-android/): TiviMate och IPTV Smarters Pro är de mest använda apparna för bästa iptv app android. TiviMate installeras via APK och har en kanalguide lik traditionell-TV. IPTV Smarters Pro finns i Google Play och är enklare att komma igång med.
 - [Bästa IPTV-appen för din tv, box och mobil](https://bastaiptvhd.se/blogg/basta-iptv-appen/): Bästa IPTV-appen beror på enheten. Android TV och Fire TV har störst urval och oftast stabilast bild, Samsung och LG har färre appar som varierar mellan modellår, och på Apple TV finns flera bra spelare i App Store. Välj en app som uppdateras regelbundet och testa gratisversionen först.
 - [IPTV-tv-guide (EPG): så får du tablån att visa rätt](https://bastaiptvhd.se/blogg/iptv-epg-tv-guide/): EPG är tv-guiden i IPTV-appen. Visar tablån fel tid beror det nästan alltid på enhetens tidszon: ställ in Stockholm och automatisk tid. En tom guide behöver oftast bara några minuter eller en manuell uppdatering i appen.
 - [IPTV i 4K: vad som krävs och när det är värt det](https://bastaiptvhd.se/blogg/iptv-i-4k/): IPTV i 4K kräver minst 25 Mbit/s fram till tv:n, en 4K-tv, en box eller app som klarar 4K och en kanal som faktiskt sänder i 4K. På tv-apparater under 55 tum är skillnaden mot bra HD ofta liten.
