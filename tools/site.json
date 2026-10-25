@@ -1,6 +1,6 @@
 {
  "base": "https://bastaiptvhd.se",
- "name": "Bästa IPTV HD",
+ "name": "BästaIPTVHD",
  "lang": "sv-SE",
  "whatsapp": "32497063717",
  "indexnow_key": "8c9227b829806e0cd2d3b0c23a95c66d",
@@ -9,7 +9,7 @@
  "launched": "2026-10-25",
  "author": {
   "type": "Organization",
-  "name": "Supporten på Bästa IPTV HD",
+  "name": "Supporten på BästaIPTVHD",
   "bio": "Vi som svarar på WhatsApp och hjälper kunder att installera IPTV på Smart TV, Apple TV, Android-boxar och mobiler. Guiderna bygger på de frågor vi får varje vecka. [PLACEHOLDER: namn och kort bakgrund för den som skriver guiderna]"
  },
  "redirects": {

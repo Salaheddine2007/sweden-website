@@ -59,7 +59,7 @@ def page(meta, body, url, trail, og_name, extra_schema=(), og_type="website"):
     for k, v in {"TITLE": html.escape(meta["title"]), "DESC": html.escape(meta["desc"]), "URL": url, "OG_TYPE": og_type,
                  "ROBOTS": meta.get("robots", "index, follow, max-image-preview:large"), "HEAD": head,
                  "OG_IMAGE": f"{BASE}/assets/og/{og_name}.png", "CRUMBS": crumb_html,
-                 "WA_DEFAULT": wa("Hej! Jag vill beställa Bästa IPTV HD."), "WA_DISPLAY": SITE["whatsapp_display"],
+                 "WA_DEFAULT": wa("Hej! Jag vill beställa BästaIPTVHD."), "WA_DISPLAY": SITE["whatsapp_display"],
                  "BODY": body}.items():
         out = out.replace("{{%s}}" % k, v)
     # wide tables scroll sideways on phones: make that region reachable by keyboard
@@ -97,6 +97,10 @@ def enrich(body, meta, og_name):
         block += f'<nav class="toc" aria-label="Innehåll"><p class="toc-title">Innehåll</p><ol>{items}</ol></nav>'
     fig = (f'<figure class="feature"><img src="/assets/og/{og_name}.webp" width="1200" height="630" loading="lazy" decoding="async" '
            f'alt="{html.escape(meta.get("img_alt") or meta["keyword"].capitalize() + ": " + meta.get("h1", meta["title"]))}"></figure>')
+    for im in meta.get("images", []):  # extra in-content images: <!--IMG:name-->
+        body = body.replace(f"<!--IMG:{im['name']}-->",
+            f'<figure class="feature"><img src="/assets/og/{im["name"]}.webp" width="1200" height="630" loading="lazy" '
+            f'decoding="async" alt="{html.escape(im["alt"])}"></figure>', 1)
     if "<!--FIGURE-->" in body:
         body = body.replace("<!--FIGURE-->", fig, 1)
     else:
@@ -157,7 +161,7 @@ def blog_index(posts):
     meta = {"title": "Guider om IPTV i Sverige: appar, installation och felsökning",
             "desc": "Guider om IPTV i Sverige: välj app, installera på Smart TV och Apple TV, få 4K att flyta och lös hackande bild. Skrivna av vår support."}
     return page(meta, body, BASE + "/blogg/", [("Guider", BASE + "/blogg/")], "blogg",
-                [{"@context": "https://schema.org", "@type": "Blog", "name": "Guider – Bästa IPTV HD", "url": BASE + "/blogg/", "inLanguage": "sv-SE"}])
+                [{"@context": "https://schema.org", "@type": "Blog", "name": "Guider – BästaIPTVHD", "url": BASE + "/blogg/", "inLanguage": "sv-SE"}])
 
 def main():
     sitemap, og = [], []
@@ -170,6 +174,7 @@ def main():
         name = slug or "home"
         doc = page(meta, enrich(body, meta, name), url, trail, name, meta.get("schema", []))
         og.append((name, meta.get("og", meta["title"])))
+        og += [(im["name"], im["title"]) for im in meta.get("images", [])]
         if slug == "404":
             write("404.html", doc.replace(f'<link rel="canonical" href="{url}">\n', ""))
             continue
