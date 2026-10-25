@@ -61,9 +61,14 @@ strong { color: var(--heading); }
 @keyframes tick { to { transform: translateX(-50%); } }
 
 /* ---------- brand ---------- */
-.brand { display: inline-flex; align-items: center; gap: .5em; font: 800 1.3rem/1 var(--f-display); color: #fff; text-decoration: none; letter-spacing: -0.03em; white-space: nowrap; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; white-space: nowrap; }
 .brand:hover { color: #fff; }
-.bug { font: 800 .7em/1 var(--f-display); background: var(--grad-btn); color: #fff; padding: .36em .5em .32em; border-radius: 8px; letter-spacing: .03em; box-shadow: 0 6px 20px -6px rgba(236,72,153,.8); }
+.brand .mark { width: 36px; height: 36px; flex: none; filter: drop-shadow(0 6px 16px rgba(236,72,153,.45)); transition: transform .25s var(--ease); }
+.brand:hover .mark { transform: rotate(-6deg) scale(1.04); }
+.wm { display: inline-flex; align-items: flex-start; font: 800 1.34rem/1 var(--f-display); letter-spacing: -0.035em; }
+.wm i { font-style: normal; margin-left: .12em; background: linear-gradient(90deg, #C4B5FD, #F9A8D4); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.wm sup { font: 800 .5rem/1 var(--f-display); letter-spacing: .08em; color: #22D3EE; border: 1.5px solid currentColor; border-radius: 5px; padding: 2px 4px 1px; margin: -2px 0 0 5px; }
+@media (prefers-reduced-motion: reduce) { .brand .mark { transition: none; } .brand:hover .mark { transform: none; } }
 
 /* ---------- buttons ---------- */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: .55em; min-height: 54px; padding: .95em 1.55em; border-radius: 14px; border: 1px solid transparent;
@@ -302,6 +307,8 @@ td:nth-child(2) { color: var(--heading); font-weight: 600; }
 :root[data-theme="light"] .vs .us { color: #6D28D9; }
 .vs thead .us { background: linear-gradient(180deg, rgba(139,92,246,.55), rgba(236,72,153,.35)); }
 .vs-logo { display: inline-flex; align-items: center; gap: .4em; font: 800 1.1rem/1 var(--f-display); color: #fff; letter-spacing: -0.02em; white-space: nowrap; }
+.vs-logo .mark { width: 28px; height: 28px; flex: none; } .vs-logo .wm { font-size: 1.08rem; }
+:root[data-theme="light"] .vs-logo .wm b { color: #1E0B3B; } :root[data-theme="light"] .vs-logo .wm i { background: linear-gradient(90deg, #6D28D9, #BE185D); -webkit-background-clip: text; background-clip: text; } :root[data-theme="light"] .vs-logo .wm sup { color: #0E7490; }
 .vs .yes .icon, .vs .no .icon { width: 26px; height: 26px; stroke-width: 2.8; vertical-align: middle; }
 .vs .yes { color: var(--green); } .vs .no { color: #FB7185; }
 :root[data-theme="light"] .vs .yes { color: #047857; } :root[data-theme="light"] .vs .no { color: #BE123C; }
