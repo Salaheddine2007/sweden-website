@@ -5,7 +5,7 @@ point at a 404 image.
 """
 import os, shutil
 
-NIGHT, SIGNAL, WHITE, MIST = (11, 13, 23), (225, 29, 72), (255, 255, 255), (142, 151, 176)
+NIGHT, SIGNAL, WHITE, MIST = (8, 0, 26), (139, 92, 246), (255, 255, 255), (157, 149, 196)
 FONTS_BOLD = ["C:/Windows/Fonts/arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
               "/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"]
 
