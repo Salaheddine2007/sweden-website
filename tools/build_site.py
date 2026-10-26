@@ -79,6 +79,28 @@ def crumbs(trail):
         {"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(full)]}
     return f'<nav class="crumbs" aria-label="Brödsmulor"><ol class="wrap">{items}</ol></nav>', schema
 
+MONTH_NAMES = {"1": "1 månad", "3": "3 månader", "6": "6 månader", "12": "12 månader"}
+
+def devices(body):
+    """<!--DEVICES--> = 1/2/3-device picker (site.js swaps [data-pp] prices, [data-pm] per month, [data-pwa] links);
+    <!--PRICETABLE--> = every price as a plain table, readable without JavaScript"""
+    if "<!--DEVICES-->" in body:
+        btns = "".join(f'<button type="button" role="radio" aria-checked="{str(d == "1").lower()}" tabindex="{0 if d == "1" else -1}" data-dev="{d}">'
+                       f'<b>{d}</b> {"enhet" if d == "1" else "enheter"}</button>' for d in SITE["prices"])
+        pick = (f'<div class="dev-pick"><p class="dev-q" id="dev-q">Hur många skärmar vill ni titta på samtidigt?</p>'
+                f'<div class="seg" role="radiogroup" aria-labelledby="dev-q">{btns}</div></div>'
+                f'<script type="application/json" id="prices">{json.dumps(SITE["prices"])}</script>')
+        body = body.replace("<!--DEVICES-->", pick, 1)
+    if "<!--PRICETABLE-->" in body:
+        heads = "".join(f'<th scope="col">{d} {"enhet" if d == "1" else "enheter"}</th>' for d in SITE["prices"])
+        rows = "".join(f'<tr><th scope="row">{name}</th>' + "".join(
+                   f'<td>{SITE["prices"][d][m]} kr' + (f'<small>{round(SITE["prices"][d][m] / int(m))} kr/mån</small>' if m != "1" else "") + '</td>'
+                   for d in SITE["prices"]) + '</tr>' for m, name in MONTH_NAMES.items())
+        table = (f'<div class="table-wrap"><table class="dev-table"><caption>Alla priser för 1, 2 och 3 enheter</caption>'
+                 f'<thead><tr><th scope="col">Paket</th>{heads}</tr></thead><tbody>{rows}</tbody></table></div>')
+        body = body.replace("<!--PRICETABLE-->", table, 1)
+    return body
+
 def page(meta, body, url, trail, og_name, extra_schema=(), og_type="website"):
     crumb_html, crumb_schema = crumbs(trail)
     schema = [ORG, WEBSITE] + ([crumb_schema] if crumb_schema else []) + list(extra_schema)
@@ -87,6 +109,7 @@ def page(meta, body, url, trail, og_name, extra_schema=(), og_type="website"):
                        "inLanguage": "sv-SE", "isPartOf": {"@id": BASE + "/#site"}, "dateModified": meta.get("updated", SITE["launched"]),
                        "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".kort", ".facts", "h1"]}})
     head = "\n".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in schema)
+    body = devices(body)
     body = re.sub(r"\{\{WA:([^}]*)\}\}", lambda m: wa(m.group(1)), body)
     body = re.sub(r"\{\{I:([a-z]+)\}\}", lambda m: icon(m.group(1)), body)
     out = LAYOUT

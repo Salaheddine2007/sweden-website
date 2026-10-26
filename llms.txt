@@ -4,7 +4,7 @@
 
 ## Fakta
 
-- Pris: 179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader, 769 kr för 12 månader (64 kr/mån)
+- Pris: 1 enhet: 179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader, 769 kr för 12 månader (64 kr/mån)
 - Bindningstid: Ingen. Abonnemanget förnyas inte automatiskt
 - Kanaler: Svenska kanaler samt kanaler från Norge, Danmark och Finland. Utbudet kan ändras över tid
 - Bildkvalitet: HD, och 4K där kanalen sänder i 4K
@@ -12,7 +12,7 @@
 - Internethastighet: Minst 10 Mbit/s per skärm för HD, 25 Mbit/s för 4K
 - Beställning och support: Via WhatsApp, på svenska och engelska
 - Betalning: Visa, Mastercard, Maestro, Klarna, Apple Pay, Google Pay, PayPal, SEPA, Bancontact, iDEAL, giropay, Cartes Bancaires
-- Skärmar: Priserna gäller en skärm åt gången
+- Skärmar: 1, 2 eller 3 enheter samtidigt. 2 enheter: 269, 499, 729 eller 1229 kr. 3 enheter: 349, 729, 1229 eller 1779 kr (1, 3, 6 eller 12 månader)
 
 ## Sidor
 
@@ -20,7 +20,7 @@
 - [Cookies och statistik: vad sidan sparar i din webbläsare](https://bastaiptvhd.se/cookies/): BästaIPTVHD använder inga cookies. Här ser du de två inställningar som sparas i din webbläsare, hur besöksstatistiken fungerar och hur du ändrar ditt val.
 - [Installera IPTV i 5 steg: Smart TV, box, mobil och dator](https://bastaiptvhd.se/installera-iptv/): Att installera IPTV tar oftast en kvart: kontrollera hastigheten på tv:n, installera rekommenderad app från enhetens appbutik, lägg in inloggningen, vänta på första laddningen och ställ in tidszonen Stockholm.
 - [Integritetspolicy: vilka uppgifter vi sparar och varför](https://bastaiptvhd.se/integritetspolicy/): Så hanterar BästaIPTVHD personuppgifter: WhatsApp, kontaktformuläret, statistik som bara laddas om du godkänner den och dina rättigheter enligt GDPR.
-- [IPTV-abonnemang 2026: från 179 kr, ingen bindningstid](https://bastaiptvhd.se/iptv-abonnemang/): Ett IPTV-abonnemang hos BästaIPTVHD kostar 179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader och 769 kr för 12 månader (64 kr/mån). Alla paket har samma innehåll, ingen bindningstid och ingen automatisk förnyelse.
+- [IPTV-abonnemang 2026: från 179 kr, ingen bindningstid](https://bastaiptvhd.se/iptv-abonnemang/): Ett IPTV-abonnemang hos BästaIPTVHD kostar 179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader och 769 kr för 12 månader (64 kr/mån) för en enhet. För 2 enheter samtidigt kostar 12 månader 1229 kr och för 3 enheter 1779 kr. Alla paket har samma innehåll, ingen bindningstid och ingen automatisk förnyelse.
 - [IPTV-box 2026: Android TV, Fire TV Stick eller MAG?](https://bastaiptvhd.se/iptv-box/): För de flesta räcker en Android TV-box eller en Fire TV Stick som IPTV-box. Apple TV är stabilast för den som redan har iPhone, och MAG-boxar fungerar men är mer låsta. Välj en box med nätverksport och officiell appbutik.
 - [IPTV för sport 2026: fotboll och hockey utan hackande bild](https://bastaiptvhd.se/iptv-for-sport/): IPTV för sport kräver cirka 15 Mbit/s per skärm i HD och 25 Mbit/s i 4K. Kabel till tv:n, HD i stället för 4K när det hackar och rätt bildfrekvens (50 bilder per sekund) gör störst skillnad.
 - [IPTV på Smart TV 2026: Samsung och LG utan extra box](https://bastaiptvhd.se/iptv-pa-smart-tv/): IPTV på Smart TV fungerar på de flesta Samsung (Tizen) och LG (webOS) från ungefär 2018 med en app från tv:ns appbutik. Vilka appar som finns beror på modell och år. Äldre tv-apparater fungerar bäst med en Fire TV Stick eller Android TV-box.
@@ -41,6 +41,6 @@
 - [IPTV på datorn: så tittar du på PC och Mac](https://bastaiptvhd.se/blogg/iptv-pa-datorn/): IPTV på datorn fungerar på Windows och Mac, antingen i gratisspelaren VLC (Media, Öppna nätverksström) eller i en IPTV-app med tv-guide. Använd kabel om det går och slå på hårdvaruavkodning om bilden hackar.
 - [Vad är IPTV? Så fungerar tv via internet](https://bastaiptvhd.se/blogg/vad-ar-iptv/): IPTV är tv som skickas via internet i stället för via antenn, parabol eller kabel. Du tittar i en app på Smart TV, box, mobil eller dator. Räkna med cirka 10 Mbit/s per skärm för HD och 25 Mbit/s för 4K.
 - [Bästa IPTV app iPhone 2026 – tre appar som fungerar](https://bastaiptvhd.se/blogg/basta-iptv-app-iphone/): Den bästa IPTV app iPhone finns i App Store och de tre bästa alternativen är IPTV Smarters Pro (gratis), GSE Smart IPTV (betald) och Flex IPTV (gratis). Alla tre stödjer Xtream Codes-inloggning som du behöver för ett BästaIPTVHD-abonnemang. Med en uppkoppling på minst 10 Mbit/s och rätt inloggningsuppgifter är du igång på ett par minuter.
-- [Iptv premium – nordiska kanaler via internet 2026](https://bastaiptvhd.se/blogg/iptv-premium/): Iptv premium är ett betalt abonnemang som levererar nordiska TV-kanaler via internet, i HD och 4K. Hos BästaIPTVHD väljer du 1, 3, 6 eller 12 månader utan bindningstid – från 64 kr/mån på årsplanen. Du beställer via WhatsApp och får dina inloggningsuppgifter samma dag.
+- [Iptv premium – nordiska kanaler via internet 2026](https://bastaiptvhd.se/blogg/iptv-premium/): Iptv premium är ett betalt abonnemang som levererar nordiska TV-kanaler via internet, i HD och 4K. Hos BästaIPTVHD väljer du 1, 3, 6 eller 12 månader utan bindningstid – från 64 kr/mån på årsplanen. Du beställer via WhatsApp och får dina inloggningsuppgifter där när betalningen är klar.
 
 Senast uppdaterad: 2026-10-26

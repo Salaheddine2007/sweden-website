@@ -51,7 +51,7 @@ def main():
     kw_heads = sum(a.keyword.lower() in h for h in heads)
     if kw_heads > max(3, len(heads) // 4):
         fail(f"keyword in {kw_heads} of {len(heads)} headings - keep it in 2-3, write the rest naturally")
-    claims = re.findall(r"(?i)kunder (?:använder|väljer|säger) (?:mest|oftast)|de flesta (?:av våra )?kunder|under \d+ minuter|inom \d+ minuter|tio minuter från|\d+ ?% av (?:våra|alla)", body)
+    claims = re.findall(r"(?i)kunder (?:använder|väljer|säger) (?:mest|oftast)|de flesta (?:av våra )?kunder|under \d+ minuter|inom \d+ minuter|tio minuter från|samma dag|en (?:aktiv )?skärm (?:per abonnemang|åt gången)|\d+ ?% av (?:våra|alla)", body)
     if claims:
         fail(f"unverifiable claim(s): {claims} - only use the confirmed facts")
     sources = []

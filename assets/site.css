@@ -215,8 +215,8 @@ strong { color: var(--heading); }
 
 /* ---------- pricing (colour-topped cards like svensk) ---------- */
 .pricing { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: stretch; }
-.price { --c: #22D3EE; position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 30px 22px 22px; overflow: hidden; }
-.price::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: var(--c); }
+.price { --c: #22D3EE; position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 30px 22px 22px; }
+.price::before { content: ""; position: absolute; inset: -1px -1px auto -1px; height: 5px; background: var(--c); border-radius: var(--r-lg) var(--r-lg) 0 0; }
 .price:nth-child(2) { --c: #EC4899; } .price:nth-child(3) { --c: #FBBF24; } .price.best { --c: linear-gradient(90deg, #8B5CF6, #EC4899); }
 .price h3 { font-size: 1.12rem; margin: 0 0 4px; }
 .price .sub { color: var(--muted); font-size: .92rem; margin: 0 0 18px; }
@@ -458,3 +458,29 @@ td:nth-child(2) { color: var(--heading); font-weight: 600; }
 .sources-h { margin: 0 0 .5em; font: 700 1rem/1.3 var(--f-display); color: var(--heading); }
 .sources ul { margin: 0; padding-left: 1.1em; }
 .sources li { margin: .25em 0; font-size: .96rem; }
+
+/* device picker (1/2/3 screens) above the price cards and the ruler */
+.dev-pick { display: flex; flex-direction: column; align-items: center; gap: 12px; margin: 0 0 30px; text-align: center; }
+.dev-q { margin: 0; font: 700 1.02rem/1.3 var(--f-display); color: var(--heading); }
+.seg { display: inline-flex; gap: 4px; padding: 5px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; }
+.seg button { display: inline-flex; align-items: center; gap: 6px; min-height: 46px; padding: 0 18px; border: 0; border-radius: 12px; background: transparent; color: var(--muted); font: 700 .98rem/1 var(--f-display); cursor: pointer; touch-action: manipulation; transition: background .2s var(--ease), color .2s var(--ease); }
+.seg button b { font: 800 1.15rem/1 var(--f-num); }
+.seg button:hover { color: var(--heading); }
+.seg button[aria-checked="true"] { background: var(--grad-btn); color: #fff; box-shadow: 0 8px 22px -10px rgba(236,72,153,.8); }
+.seg button:focus-visible { outline: 2px solid #22D3EE; outline-offset: 2px; }
+[data-pp], [data-pm] { font-variant-numeric: tabular-nums; }
+.dev-table caption { caption-side: top; text-align: left; font: 700 1rem/1.3 var(--f-display); color: var(--heading); padding: 0 0 10px; }
+.dev-table td small { display: block; color: var(--muted); font-size: .85rem; }
+@media (max-width: 420px) { .seg button { padding: 0 12px; font-size: .92rem; } }
+
+/* floating contact-form button, stacked above the WhatsApp pill */
+.form-float { position: fixed; right: 22px; bottom: 90px; z-index: 35; display: inline-flex; align-items: center; gap: 10px; padding: 13px 20px 13px 16px; border-radius: 999px; background: var(--grad-btn); color: #fff; font: 800 .98rem/1 var(--f-display); text-decoration: none; box-shadow: 0 16px 36px -12px rgba(139,92,246,.8); transition: transform .2s var(--ease), opacity .25s var(--ease); }
+.form-float:hover { transform: translateY(-2px); color: #fff; }
+.form-float svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.form-float.away { opacity: 0; pointer-events: none; transform: translateY(8px); }
+.form-float:focus-visible { outline: 2px solid #22D3EE; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .form-float { right: 12px; bottom: calc(max(12px, env(safe-area-inset-bottom)) + 68px); width: 52px; height: 52px; padding: 0; justify-content: center; }
+  .form-float span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) { .form-float, .seg button { transition: none; } }

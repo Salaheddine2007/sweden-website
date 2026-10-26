@@ -23,7 +23,7 @@
  "facts": [
   [
    "Pris",
-   "179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader, 769 kr för 12 månader (64 kr/mån)"
+   "1 enhet: 179 kr för 1 månad, 349 kr för 3 månader, 499 kr för 6 månader, 769 kr för 12 månader (64 kr/mån)"
   ],
   [
    "Bindningstid",
@@ -55,7 +55,27 @@
   ],
   [
    "Skärmar",
-   "Priserna gäller en skärm åt gången"
+   "1, 2 eller 3 enheter samtidigt. 2 enheter: 269, 499, 729 eller 1229 kr. 3 enheter: 349, 729, 1229 eller 1779 kr (1, 3, 6 eller 12 månader)"
   ]
- ]
+ ],
+ "prices": {
+  "1": {
+   "1": 179,
+   "3": 349,
+   "6": 499,
+   "12": 769
+  },
+  "2": {
+   "1": 269,
+   "3": 499,
+   "6": 729,
+   "12": 1229
+  },
+  "3": {
+   "1": 349,
+   "3": 729,
+   "6": 1229,
+   "12": 1779
+  }
+ }
 }
