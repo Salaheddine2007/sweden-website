@@ -40,5 +40,6 @@
 - [IPTV på Apple TV: installation, appar och inställningar](https://bastaiptvhd.se/blogg/iptv-pa-apple-tv/): IPTV fungerar på Apple TV HD och alla Apple TV 4K via en IPTV-spelare från App Store. Slå på Matcha bildfrekvens och Matcha dynamiskt omfång, ställ in tidszonen Stockholm och använd nätverkskabel om det går.
 - [IPTV på datorn: så tittar du på PC och Mac](https://bastaiptvhd.se/blogg/iptv-pa-datorn/): IPTV på datorn fungerar på Windows och Mac, antingen i gratisspelaren VLC (Media, Öppna nätverksström) eller i en IPTV-app med tv-guide. Använd kabel om det går och slå på hårdvaruavkodning om bilden hackar.
 - [Vad är IPTV? Så fungerar tv via internet](https://bastaiptvhd.se/blogg/vad-ar-iptv/): IPTV är tv som skickas via internet i stället för via antenn, parabol eller kabel. Du tittar i en app på Smart TV, box, mobil eller dator. Räkna med cirka 10 Mbit/s per skärm för HD och 25 Mbit/s för 4K.
+- [Bästa IPTV app iPhone 2026 – tre appar som fungerar](https://bastaiptvhd.se/blogg/basta-iptv-app-iphone/): Den bästa IPTV app iPhone finns i App Store och de tre bästa alternativen är IPTV Smarters Pro (gratis), GSE Smart IPTV (betald) och Flex IPTV (gratis). Alla tre stödjer Xtream Codes-inloggning som du behöver för ett BästaIPTVHD-abonnemang. Med en uppkoppling på minst 10 Mbit/s och rätt inloggningsuppgifter är du igång på ett par minuter.
 
-Senast uppdaterad: 2026-10-25
+Senast uppdaterad: 2026-10-26
