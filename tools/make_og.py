@@ -63,9 +63,9 @@ def build(out_dir, items):
     os.makedirs(out_dir, exist_ok=True)
     made = 0
     try:
-        import PIL  # noqa: F401
+        from PIL import Image, ImageDraw  # noqa: F401
         have_pil = True
-    except ImportError:
+    except (ImportError, Exception):
         have_pil = False
     for name, title in items:
         path = os.path.join(out_dir, name + ".png")
