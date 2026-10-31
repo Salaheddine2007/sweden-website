@@ -50,5 +50,6 @@
 - [Iptv sverige premium – nordiska kanaler i HD och 4K](https://bastaiptvhd.se/blogg/iptv-sverige-premium/): Iptv sverige premium från BästaIPTVHD ger dig svenska och nordiska kanaler i HD och 4K utan bindningstid. Du väljer 1, 2 eller 3 skärmar och en period på 1–12 månader. Beställ och installationshjälp sker via WhatsApp på svenska.
 - [Iptv app android – välj rätt app och kom igång snabbt](https://bastaiptvhd.se/blogg/iptv-app-android/): En iptv app android som SMARTERS Player eller TiviMate låter dig titta på live-TV direkt på din telefon, surfplatta eller Android TV-box. Du laddar ner appen gratis från Google Play Store och anger server-URL, användarnamn och lösenord. BästaIPTVHD skickar inloggningsuppgifterna via WhatsApp när betalningen är genomförd.
 - [IPTV Swish – betala med kort, Klarna eller PayPal 2026](https://bastaiptvhd.se/blogg/iptv-swish/): BästaIPTVHD tar inte emot Swish. Du kan betala med Visa, Mastercard, Klarna, Apple Pay, Google Pay eller PayPal. Välj det alternativ som passar dig och beställ via WhatsApp.
+- [Iptv dreambox – konfigurera Enigma2 för live-TV](https://bastaiptvhd.se/blogg/iptv-dreambox/): Du kopplar in iptv dreambox genom att installera pluginet E2m3u2bouquet på din Enigma2-mottagare och lägga till en M3U-URL från din leverantör. Kanalerna läggs då till i den vanliga kanalguiden och du zappar med fjärrkontrollen som vanligt. BästaIPTVHD skickar din serveradress, ditt användarnamn och lösenordet via WhatsApp direkt efter betalning.
 
-Senast uppdaterad: 2026-10-30
+Senast uppdaterad: 2026-10-31
