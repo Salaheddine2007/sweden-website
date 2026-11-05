@@ -60,5 +60,6 @@
 - [IPTV utan box – titta direkt på din TV eller mobil](https://bastaiptvhd.se/blogg/iptv-utan-box/): Du behöver ingen separat IPTV-box för att se IPTV. En Smart-TV, Android TV, Fire TV Stick, telefon eller dator med rätt app räcker. Du beställer ett abonnemang, får inloggningsuppgifter via WhatsApp och börjar titta direkt utan bindningstid.
 - [IPTV box wifi – koppla upp och felsök hemma](https://bastaiptvhd.se/blogg/iptv-box-wifi/): En iptv box wifi-anslutning fungerar bra om du har minst 10 Mbit/s per skärm för HD eller 25 Mbit/s för 4K. Välj 5 GHz-bandet på din router om möjligt och placera routern nära TV:n för bästa signal. Drar du en nätverkskabel istället för wifi försvinner de flesta strömningsproblem.
 - [IPTV problem: vanliga fel och hur du löser dem](https://bastaiptvhd.se/blogg/iptv-problem/): IPTV problem beror oftast på för låg internethastighet, fel inloggningsuppgifter eller en föråldrad app. Starta om enheten och routern, mät hastigheten på Bredbandskollen och kontrollera att inloggningsuppgifterna stämmer. Löser det sig inte, kontakta oss på WhatsApp för snabb hjälp.
+- [Vad är IPTV-box och hur fungerar den med din TV?](https://bastaiptvhd.se/blogg/vad-ar-iptv-box/): En IPTV-box är en enhet som tar emot TV-kanaler via internet och skickar bilden till din TV via HDMI. Du behöver en internetuppkoppling och ett IPTV-abonnemang – boxen tar hand om avkodningen. BästaIPTVHD fungerar med de flesta IPTV-boxar, Android-enheter och smart-TV-apparater.
 
-Senast uppdaterad: 2026-11-04
+Senast uppdaterad: 2026-11-05
