@@ -76,5 +76,6 @@
 - [IPTV bredband – vilken hastighet behöver du 2026?](https://bastaiptvhd.se/blogg/iptv-bredband/): För IPTV i HD räcker 10 Mbit/s per skärm, för sport 15 och för 4K 25 Mbit/s. De flesta svenska bredbandsuppkopplingar klarar detta utan problem. WiFi fungerar utmärkt nära routern, men kabel ger mer stabil bild vid sport och direktsändningar.
 - [Iptv chromecast – så ser du TV direkt på storskärmen](https://bastaiptvhd.se/blogg/iptv-chromecast/): Iptv chromecast fungerar med alla Chromecast-modeller. Chromecast med Google TV låter dig installera IPTV-appar direkt via Play Store; äldre modeller castar från telefonen via en app. BästaIPTVHD-abonnemanget fungerar med båda metoderna och kan beställas via WhatsApp.
 - [IPTV direkt i TV – guide för smart-TV och alla enheter](https://bastaiptvhd.se/blogg/iptv-direkt-i-tv/): Du kan se iptv direkt i tv med vilken modern smart-TV som helst – utan box och utan bindningstid. Du installerar en app, anger inloggningsuppgifter och väljer kanal. BästaIPTVHD levererar svenska och nordiska kanaler i HD och 4K.
+- [IPTV guide 2026: allt du behöver veta för att komma igång](https://bastaiptvhd.se/blogg/iptv-guide/): En iptv guide hjälper dig komma igång med TV via internet. Du behöver en app, en stabil bredbandsuppkoppling och ett abonnemang – ingen specialhårdvara krävs. Välj antal simultanea skärmar och en period utan bindningstid hos BästaIPTVHD.
 
-Senast uppdaterad: 2026-11-12
+Senast uppdaterad: 2026-11-13
