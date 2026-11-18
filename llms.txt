@@ -86,5 +86,6 @@
 - [IPTV problem router – så felsöker du hemmanätverket steg för steg](https://bastaiptvhd.se/blogg/iptv-problem-router/): IPTV problem router löses oftast genom att starta om routern, byta DNS-server till 1.1.1.1 eller prioritera IPTV-trafik med QoS. Kontrollera också att brandväggen inte blockerar IPTV-portar och att WiFi-signalen är tillräcklig – en nätverkskabel är det snabbaste sättet att utesluta WiFi som orsak.
 - [IPTV på Philips TV – så kommer du igång 2026](https://bastaiptvhd.se/blogg/iptv-pa-philips-tv/): De flesta Philips-TV-apparater från 2016 kör Android TV och stöder IPTV-appar direkt via Google Play Store. Välj IPTV Smarters Pro eller TiviMate, logga in med uppgifterna du får via WhatsApp och du är igång. Har du en äldre Saphi-modell fungerar en Chromecast eller Android TV-box som enkel lösning.
 - [IPTV på VLC – så ställer du in det på alla enheter](https://bastaiptvhd.se/blogg/iptv-pa-vlc/): IPTV på VLC fungerar via en M3U-URL som du lägger in under Medie → Öppna nätverksström. Med ett abonnemang från BästaIPTVHD får du URL:en på WhatsApp efter betalning. VLC är gratis och stöder Windows, Mac, Android och iPhone.
+- [IPTV Smart TV Samsung – installera och titta utan box](https://bastaiptvhd.se/blogg/iptv-smart-tv-samsung/): Du installerar en IPTV-app som Smart IPTV eller IPTV Smarters Pro direkt från Samsung App Store och loggar in med uppgifterna från BästaIPTVHD. Kanalerna laddas in automatiskt. Du behöver minst 10 Mbit/s för HD och 25 Mbit/s för 4K.
 
-Senast uppdaterad: 2026-11-17
+Senast uppdaterad: 2026-11-18
