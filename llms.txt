@@ -90,5 +90,6 @@
 - [IPTV Sony Bravia: guide för Android TV och Google TV 2026](https://bastaiptvhd.se/blogg/iptv-sony/): IPTV Sony fungerar utmärkt på Sony Bravia med Android TV eller Google TV via appar som IPTV Smarters Pro och TiviMate i Google Play Butik. Du loggar in med serveradress, användarnamn och lösenord som vi skickar via WhatsApp. Abonnemang kostar från 179 kr i månaden för en enhet, utan bindningstid.
 - [Iptv stick android – appar, installation och abonnemang](https://bastaiptvhd.se/blogg/iptv-stick-android/): En iptv stick android är en liten dongel som ger din tv IPTV-åtkomst via ett HDMI-uttag. Du installerar en app som IPTV Smarters Pro eller TiviMate, anger inloggningsuppgifterna och ser kanalerna direkt. Abonnemang hos BästaIPTVHD finns för 1–3 enheter och startar på 179 kr per månad.
 - [IPTV Sverige kanaler – komplett guide 2026](https://bastaiptvhd.se/blogg/iptv-sverige-kanaler/): Med iptv sverige kanaler får du svenska, norska, danska och finska kanaler via internet i HD och 4K. Abonnemang börjar från 179 kr per månad för en enhet utan bindningstid. Beställning och support sker via WhatsApp på svenska och engelska.
+- [IPTV Sverige pris – komplett guide till planer och kostnader](https://bastaiptvhd.se/blogg/iptv-sverige-pris/): IPTV Sverige pris börjar på 179 kr per månad för en enhet. Med årsabonnemang sjunker kostnaden till 64 kr per månad. Priset beror på antal simultana enheter och vald period – kanalutbud och HD-kvalitet är densamma i alla planer.
 
-Senast uppdaterad: 2026-11-19
+Senast uppdaterad: 2026-11-20
