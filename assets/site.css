@@ -484,3 +484,19 @@ td:nth-child(2) { color: var(--heading); font-weight: 600; }
   .form-float span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
 @media (prefers-reduced-motion: reduce) { .form-float, .seg button { transition: none; } }
+
+
+/* mobile-overflow-fix: the .sr-only "Ja" labels in the comparison table are absolutely positioned; without a
+   positioned scroll wrapper they escape its clipping and widen the whole page on phones (474px on a 390px screen). */
+.vs-wrap { position: relative; max-width: 100%; -webkit-overflow-scrolling: touch; }
+html, body { overflow-x: clip; }
+
+/* mobile-consent-compact: the statistics card covered a third of the first phone screen and the round contact
+   button peeked out behind it. Make the card compact and hide the round button while the card is open. */
+@media (max-width: 640px) {
+  .consent { left: 12px; right: 12px; padding: 12px 14px; border-radius: 16px; bottom: calc(max(12px, env(safe-area-inset-bottom)) + 68px); }
+  .consent p { font-size: .84rem; line-height: 1.45; margin: 0 0 8px; }
+  .consent-btns { gap: 8px; }
+  .consent .btn { min-height: 40px; padding: 8px 14px; font-size: .88rem; }
+  body:has(.consent:not([hidden])) .form-float { opacity: 0; pointer-events: none; }
+}
