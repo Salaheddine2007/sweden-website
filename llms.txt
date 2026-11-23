@@ -96,5 +96,6 @@
 - [IPTV tips: de bästa råden för en stabil tittarupplevelse](https://bastaiptvhd.se/blogg/iptv-tips/): De bästa iptv tips handlar om nätverket, rätt app och abonnemangsval. Du behöver minst 10 Mbit/s per skärm för HD-kanaler. Har ni flera TV som tittar på samma gång passar ett 2- eller 3-enhets-abonnemang.
 - [Iptv tv guide 2026 – så fungerar programguiden i din app](https://bastaiptvhd.se/blogg/iptv-tv-guide/): En iptv tv guide, eller EPG, är tablån i din IPTV-app som visar vad som sänds nu och kommande program. Den laddas separat från kanalerna och täcker nordiska kanaler från Sverige, Norge, Danmark och Finland. Rätt tidszon på enheten är det viktigaste för att tablån ska visa rätt tider.
 - [Köpa IPTV kanaler – så väljer du rätt paket 2026](https://bastaiptvhd.se/blogg/kopa-iptv-kanaler/): Köpa IPTV kanaler hos BästaIPTVHD görs via WhatsApp – du väljer period och antal enheter, betalar och får inloggningsuppgifterna direkt. Abonnemangen kostar från 179 kr per månad för en enhet och det finns ingen bindningstid. Utbudet inkluderar svenska kanaler samt kanaler från Norge, Danmark och Finland i HD och 4K.
+- [LG IPTV app – installera och se på din LG-tv](https://bastaiptvhd.se/blogg/lg-iptv-app/): En lg iptv app som Smart IPTV installeras direkt från LG Content Store och kopplas till ditt abonnemang via Xtream Codes. Du behöver serveradress, användarnamn och lösenord som du får via WhatsApp efter godkänd betalning. Rekommenderad hastighet är minst 10 Mbit/s per skärm för HD-streaming.
 
-Senast uppdaterad: 2026-11-22
+Senast uppdaterad: 2026-11-23
